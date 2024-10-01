@@ -9,8 +9,8 @@ items:
   target: "/fr/agenda/"
   kind: page
   children: []
-- title: Projets
-  target: "/fr/projets/"
+- title: Ressources
+  target: "/fr/ressources/"
   kind: page
   children: []
 - title: Équipe
