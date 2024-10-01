@@ -21,28 +21,4 @@ items:
   target: "/en/organizations/"
   kind: page
   children: []
-- title: Diplomas
-  target: "/en/diplomas/"
-  kind: page
-  children: []
-- title: Programs
-  target: "/en/programs/"
-  kind: page
-  children: []
-- title: Volumes
-  target: "/en/volumes/"
-  kind: page
-  children: []
-- title: Papers
-  target: "/en/papers/"
-  kind: page
-  children: []
-- title: HAL publications
-  target: "/en/publications/"
-  kind: page
-  children: []
-- title: Campus
-  target: "/en/campus/"
-  kind: page
-  children: []
 
