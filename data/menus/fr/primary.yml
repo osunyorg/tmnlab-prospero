@@ -8,11 +8,11 @@ items:
   - title: Ressources
     target: ''
     kind: blank
-    children: []
-  - title: Comprendre le contexte
-    target: "/fr/ressources/comprendre-le-contexte/"
-    kind: url
-    children: []
+    children:
+    - title: Comprendre le contexte
+      target: "/fr/ressources/comprendre-le-contexte/"
+      kind: url
+      children: []
   - title: Découvrir les bases
     target: "/fr/ressources/decouvrir-les-bases/"
     kind: url
