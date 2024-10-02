@@ -5,4 +5,8 @@ items:
   target: "/fr/ressources/"
   kind: page
   children: []
+- title: Annexes
+  target: "/fr/annexes/"
+  kind: page
+  children: []
 
