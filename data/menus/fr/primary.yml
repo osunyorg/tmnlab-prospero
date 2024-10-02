@@ -5,6 +5,10 @@ items:
   target: "/fr/ressources/"
   kind: page
   children:
+  - title: Ressources
+    target: "/fr/ressources/"
+    kind: page
+    children: []
   - title: Comprendre le contexte
     target: "/fr/ressources/comprendre-le-contexte/"
     kind: url
@@ -12,10 +16,6 @@ items:
   - title: Découvrir les bases
     target: "/fr/ressources/decouvrir-les-bases/"
     kind: url
-    children: []
-  - title: Ressources
-    target: "/fr/ressources/"
-    kind: page
     children: []
 - title: Annexes
   target: "/fr/annexes/"
