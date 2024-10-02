@@ -13,6 +13,10 @@ items:
     target: "/fr/annexes/glossaire/"
     kind: page
     children: []
+  - title: Témoignages
+    target: "/fr/annexes/temoignages/"
+    kind: page
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
