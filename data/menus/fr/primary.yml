@@ -9,6 +9,10 @@ items:
     target: "/fr/ressources/comprendre-le-contexte/"
     kind: url
     children: []
+  - title: Ressources
+    target: "/fr/ressources/"
+    kind: page
+    children: []
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
