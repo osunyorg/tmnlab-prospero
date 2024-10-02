@@ -4,7 +4,11 @@ items:
 - title: Ressources
   target: "/fr/ressources/"
   kind: page
-  children: []
+  children:
+  - title: Comprendre le contexte
+    target: "/ressources/comprendre-le-contexte/"
+    kind: url
+    children: []
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
