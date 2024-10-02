@@ -5,9 +5,9 @@ items:
   target: "/fr/ressources/"
   kind: page
   children:
-  - title: Ressources
-    target: ''
-    kind: blank
+  - title: Thématiques
+    target: "/fr/ressources/thematiques/"
+    kind: url
     children:
     - title: Comprendre le contexte
       target: "/fr/ressources/comprendre-le-contexte/"
