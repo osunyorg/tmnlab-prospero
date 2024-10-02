@@ -21,4 +21,8 @@ items:
     target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
+  - title: Positionnement
+    target: "/fr/a-propos/positionnement/"
+    kind: page
+    children: []
 
