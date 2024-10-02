@@ -8,7 +8,11 @@ items:
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
-  children: []
+  children:
+  - title: Glossaire
+    target: "/fr/annexes/glossaire/"
+    kind: page
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
@@ -25,8 +29,4 @@ items:
     target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
-- title: Glossaire
-  target: "/fr/glossaire/"
-  kind: page
-  children: []
 
