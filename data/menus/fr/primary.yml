@@ -13,12 +13,12 @@ items:
   target: "/fr/a-propos/"
   kind: page
   children:
-  - title: Partenaires
-    target: "/fr/a-propos/partenaires/"
-    kind: page
-    children: []
   - title: Équipe
     target: "/fr/a-propos/equipe/"
+    kind: page
+    children: []
+  - title: Partenaires
+    target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
 
