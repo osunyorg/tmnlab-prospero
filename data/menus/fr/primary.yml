@@ -13,6 +13,10 @@ items:
     target: "/fr/ressources/"
     kind: page
     children: []
+  - title: Découvrir les bases
+    target: "/fr/ressources/decouvrir-les-bases/"
+    kind: url
+    children: []
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
