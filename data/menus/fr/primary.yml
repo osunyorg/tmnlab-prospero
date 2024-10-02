@@ -21,6 +21,10 @@ items:
     target: "/fr/ressources/maitriser-les-techniques/"
     kind: url
     children: []
+  - title: Piloter la stratégie
+    target: "/fr/ressources/piloter-la-strategie/"
+    kind: url
+    children: []
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
