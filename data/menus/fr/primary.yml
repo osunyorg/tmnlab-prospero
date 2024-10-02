@@ -6,8 +6,8 @@ items:
   kind: page
   children:
   - title: Ressources
-    target: "/fr/ressources/"
-    kind: page
+    target: ''
+    kind: blank
     children: []
   - title: Comprendre le contexte
     target: "/fr/ressources/comprendre-le-contexte/"
