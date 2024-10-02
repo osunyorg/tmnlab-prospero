@@ -17,6 +17,10 @@ items:
     target: "/fr/annexes/temoignages/"
     kind: page
     children: []
+  - title: Bibliographie
+    target: "/fr/annexes/bibliographie/"
+    kind: page
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
