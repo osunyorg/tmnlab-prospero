@@ -25,4 +25,8 @@ items:
     target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
+- title: Glossaire
+  target: "/fr/glossaire/"
+  kind: page
+  children: []
 
