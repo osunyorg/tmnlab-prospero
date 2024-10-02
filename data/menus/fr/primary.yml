@@ -12,5 +12,9 @@ items:
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
-  children: []
+  children:
+  - title: Équipe
+    target: "/fr/a-propos/equipe/"
+    kind: page
+    children: []
 
