@@ -6,7 +6,7 @@ items:
   kind: page
   children:
   - title: Comprendre le contexte
-    target: "/ressources/comprendre-le-contexte/"
+    target: "/fr/ressources/comprendre-le-contexte/"
     kind: url
     children: []
 - title: Annexes
