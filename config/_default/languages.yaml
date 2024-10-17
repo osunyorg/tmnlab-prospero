@@ -11,8 +11,8 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    projects: /ressources/:year-:slug/
-    projects_categories: /ressources/:slug/
+    projects: /fiches/:year-:slug/
+    projects_categories: /fiches/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
   taxonomies:
