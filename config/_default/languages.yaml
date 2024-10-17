@@ -9,8 +9,6 @@ fr:
   params:
     social:
   permalinks:
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
     projects: /fiches/:year-:slug/
     projects_categories: /fiches/:slug/
     posts: /annexes/:year-:month-:day-:slug/
@@ -37,8 +35,6 @@ en:
   params:
     social:
   permalinks:
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     posts: /posts/:year-:month-:day-:slug/
