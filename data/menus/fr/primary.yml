@@ -25,22 +25,6 @@ items:
       target: "/fr/ressources/piloter-la-strategie/"
       kind: url
       children: []
-- title: Annexes
-  target: "/fr/annexes/"
-  kind: page
-  children:
-  - title: Glossaire
-    target: "/fr/annexes/glossaire/"
-    kind: page
-    children: []
-  - title: Témoignages
-    target: "/fr/annexes/temoignages/"
-    kind: page
-    children: []
-  - title: Bibliographie
-    target: "/fr/annexes/bibliographie/"
-    kind: page
-    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
