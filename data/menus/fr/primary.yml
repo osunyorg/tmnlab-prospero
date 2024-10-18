@@ -28,7 +28,11 @@ items:
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
-  children: []
+  children:
+  - title: Définitions
+    target: "/fr/annexes/definitions/"
+    kind: category
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
