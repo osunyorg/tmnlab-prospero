@@ -16,3 +16,6 @@ params:
   menu:
     dropdown:
       linkToLevel1: true
+  projects:
+    index:
+      layout: list
