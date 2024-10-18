@@ -5,7 +5,7 @@ items:
   target: "/fr/fiches/"
   kind: page
   children:
-  - title: Toutes les rubriques
+  - title: 4 grandes rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
     children:
