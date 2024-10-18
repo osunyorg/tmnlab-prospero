@@ -37,6 +37,10 @@ items:
     target: "/fr/annexes/temoignages/"
     kind: category
     children: []
+  - title: Études de cas
+    target: "/fr/annexes/etudes-de-cas/"
+    kind: category
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
