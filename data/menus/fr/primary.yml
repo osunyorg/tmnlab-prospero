@@ -5,8 +5,8 @@ items:
   target: "/fr/fiches/"
   kind: page
   children:
-  - title: Thématiques
-    target: "/fr/ressources/thematiques/"
+  - title: Rubriques
+    target: "/fr/fiches/rubriques/"
     kind: url
     children:
     - title: Comprendre le contexte
