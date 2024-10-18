@@ -8,15 +8,15 @@ items:
   - title: Toutes les rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
-    children: []
-  - title: Comprendre le contexte
-    target: "/fr/ressources/comprendre-le-contexte/"
-    kind: url
-    children: []
-  - title: Découvrir les bases
-    target: "/fr/ressources/decouvrir-les-bases/"
-    kind: url
-    children: []
+    children:
+    - title: Comprendre le contexte
+      target: "/fr/ressources/comprendre-le-contexte/"
+      kind: url
+      children: []
+    - title: Découvrir les bases
+      target: "/fr/ressources/decouvrir-les-bases/"
+      kind: url
+      children: []
   - title: Maîtriser les techniques
     target: "/fr/ressources/maitriser-les-techniques/"
     kind: url
