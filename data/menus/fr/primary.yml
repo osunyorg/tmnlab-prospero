@@ -5,6 +5,10 @@ items:
   target: "/fr/fiches/"
   kind: page
   children:
+  - title: Toutes les rubriques
+    target: "/fr/fiches/rubriques/"
+    kind: url
+    children: []
   - title: Comprendre le contexte
     target: "/fr/ressources/comprendre-le-contexte/"
     kind: url
@@ -19,10 +23,6 @@ items:
     children: []
   - title: Piloter la stratégie
     target: "/fr/ressources/piloter-la-strategie/"
-    kind: url
-    children: []
-  - title: Toutes les rubriques
-    target: "/fr/fiches/rubriques/"
     kind: url
     children: []
 - title: Annexes
