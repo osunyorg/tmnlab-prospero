@@ -41,6 +41,10 @@ items:
     target: "/fr/annexes/etudes-de-cas/"
     kind: category
     children: []
+  - title: Publications
+    target: "/fr/annexes/publications/"
+    kind: category
+    children: []
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
