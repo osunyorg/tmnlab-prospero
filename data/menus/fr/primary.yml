@@ -21,7 +21,7 @@ items:
     target: "/fr/ressources/piloter-la-strategie/"
     kind: url
     children: []
-  - title: Rubriques
+  - title: Toutes les rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
     children: []
