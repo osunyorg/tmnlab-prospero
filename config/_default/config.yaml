@@ -13,3 +13,6 @@ params:
   logo:
     header: ''
     footer: ''
+  menu:
+    dropdown:
+      linkToLevel1: true
