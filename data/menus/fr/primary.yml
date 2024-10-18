@@ -5,14 +5,14 @@ items:
   target: "/fr/fiches/"
   kind: page
   children:
+  - title: Comprendre le contexte
+    target: "/fr/ressources/comprendre-le-contexte/"
+    kind: url
+    children: []
   - title: Rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
     children:
-    - title: Comprendre le contexte
-      target: "/fr/ressources/comprendre-le-contexte/"
-      kind: url
-      children: []
     - title: Découvrir les bases
       target: "/fr/ressources/decouvrir-les-bases/"
       kind: url
