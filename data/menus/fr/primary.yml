@@ -9,22 +9,22 @@ items:
     target: "/fr/ressources/comprendre-le-contexte/"
     kind: url
     children: []
+  - title: Découvrir les bases
+    target: "/fr/ressources/decouvrir-les-bases/"
+    kind: url
+    children: []
+  - title: Maîtriser les techniques
+    target: "/fr/ressources/maitriser-les-techniques/"
+    kind: url
+    children: []
+  - title: Piloter la stratégie
+    target: "/fr/ressources/piloter-la-strategie/"
+    kind: url
+    children: []
   - title: Rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
-    children:
-    - title: Découvrir les bases
-      target: "/fr/ressources/decouvrir-les-bases/"
-      kind: url
-      children: []
-    - title: Maîtriser les techniques
-      target: "/fr/ressources/maitriser-les-techniques/"
-      kind: url
-      children: []
-    - title: Piloter la stratégie
-      target: "/fr/ressources/piloter-la-strategie/"
-      kind: url
-      children: []
+    children: []
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
