@@ -41,4 +41,8 @@ items:
     target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
+- title: Annexes
+  target: "/fr/annexes/"
+  kind: page
+  children: []
 
