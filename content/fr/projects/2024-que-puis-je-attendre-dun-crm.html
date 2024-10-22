@@ -80,20 +80,28 @@ taxonomies:
         slug: "tunnels-dacquisition"
 
 contents_reading_time:
-  seconds: 275
+  seconds: 281
   text: >-
     5 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour tout savoir
-    slug: "pour-tout-savoir"
-    position: 1
-    rank: 2
+    slug: >-
+      pour-tout-savoir
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Les CRM et billetteries, des logiciels cousins mais pas jumeaux
+    slug: >-
+      les-crm-et-billetteries-des-logiciels-cousins-mais-pas-jumeaux
     ranks:
       self: 3
     data:
@@ -117,6 +125,8 @@ contents:
     template: testimonials
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -136,6 +146,8 @@ contents:
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -159,6 +171,8 @@ contents:
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -186,6 +200,8 @@ contents:
     template: chapter
     title: >-
       Les enjeux auxquels un CRM peut et devrait répondre
+    slug: >-
+      les-enjeux-auxquels-un-crm-peut-et-devrait-repondre
     ranks:
       self: 3
     data:
@@ -205,17 +221,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
       Définitions
+    slug: >-
+      definitions
     ranks:
       self: 3
       children: 4
@@ -240,6 +263,8 @@ contents:
     template: posts
     title: >-
       Témoignages
+    slug: >-
+      temoignages
     ranks:
       self: 3
       children: 4
@@ -265,6 +290,8 @@ contents:
     template: posts
     title: >-
       Publications
+    slug: >-
+      publications
     ranks:
       self: 3
       children: 4
@@ -282,7 +309,6 @@ contents:
 
       posts:
         - "2020/2020-02-02-guide-pratique-de-deploiement-dun-grc-au-sein-des-institutions-culturelles-2020"
-
 
 
 
