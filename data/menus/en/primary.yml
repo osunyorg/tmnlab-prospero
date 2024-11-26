@@ -5,12 +5,15 @@ items:
   target: "/en/projects/"
   kind: page
   children: []
+  file: content/en/projects/_index.html
 - title: Posts
   target: "/en/posts/"
   kind: page
   children: []
+  file: content/en/posts/_index.html
 - title: Agenda
   target: "/en/agenda/"
   kind: page
   children: []
+  file: content/en/events/_index.html
 
