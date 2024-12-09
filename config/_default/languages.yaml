@@ -7,7 +7,8 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
+    contact_details:
+
   permalinks:
     projects: /fiches/:year-:slug/
     projects_categories: /fiches/:slug/
@@ -33,7 +34,8 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
+    contact_details:
+
   permalinks:
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
