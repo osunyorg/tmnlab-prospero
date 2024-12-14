@@ -25,6 +25,7 @@ items:
       target: "/fr/ressources/piloter-la-strategie/"
       kind: url
       children: []
+  path: "/projects"
   file: content/fr/projects/_index.html
 - title: Annexes
   target: "/fr/annexes/"
@@ -34,22 +35,27 @@ items:
     target: "/fr/annexes/definitions/"
     kind: category
     children: []
+    path: "/posts_categories/definitions"
     file: content/fr/posts_categories/definitions/_index.html
   - title: Témoignages
     target: "/fr/annexes/temoignages/"
     kind: category
     children: []
+    path: "/posts_categories/temoignages"
     file: content/fr/posts_categories/temoignages/_index.html
   - title: Études de cas
     target: "/fr/annexes/etudes-de-cas/"
     kind: category
     children: []
+    path: "/posts_categories/etudes-de-cas"
     file: content/fr/posts_categories/etudes-de-cas/_index.html
   - title: Publications
     target: "/fr/annexes/publications/"
     kind: category
     children: []
+    path: "/posts_categories/publications"
     file: content/fr/posts_categories/publications/_index.html
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: À propos
   target: "/fr/a-propos/"
@@ -59,16 +65,20 @@ items:
     target: "/fr/a-propos/positionnement/"
     kind: page
     children: []
+    path: "/pages/a-propos/positionnement"
     file: content/fr/pages/a-propos/positionnement/_index.html
   - title: Équipe
     target: "/fr/a-propos/equipe/"
     kind: page
     children: []
+    path: "/persons"
     file: content/fr/persons/_index.html
   - title: Partenaires
     target: "/fr/a-propos/partenaires/"
     kind: page
     children: []
+    path: "/organizations"
     file: content/fr/organizations/_index.html
+  path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 
