@@ -4,54 +4,65 @@ items:
 - title: Fiches
   target: "/fr/fiches/"
   kind: page
+  new_tab: false
   children:
   - title: 4 grandes rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
+    new_tab: false
     children:
     - title: Comprendre le contexte
       target: "/fr/ressources/comprendre-le-contexte/"
       kind: url
+      new_tab: false
       children: []
     - title: Découvrir les bases
       target: "/fr/ressources/decouvrir-les-bases/"
       kind: url
+      new_tab: false
       children: []
     - title: Maîtriser les techniques
       target: "/fr/ressources/maitriser-les-techniques/"
       kind: url
+      new_tab: false
       children: []
     - title: Piloter la stratégie
       target: "/fr/ressources/piloter-la-strategie/"
       kind: url
+      new_tab: false
       children: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Annexes
   target: "/fr/annexes/"
   kind: page
+  new_tab: false
   children:
   - title: Définitions
     target: "/fr/annexes/definitions/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/definitions"
     file: content/fr/posts_categories/definitions/_index.html
   - title: Témoignages
     target: "/fr/annexes/temoignages/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/temoignages"
     file: content/fr/posts_categories/temoignages/_index.html
   - title: Études de cas
     target: "/fr/annexes/etudes-de-cas/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/etudes-de-cas"
     file: content/fr/posts_categories/etudes-de-cas/_index.html
   - title: Publications
     target: "/fr/annexes/publications/"
     kind: category
+    new_tab: false
     children: []
     path: "/posts_categories/publications"
     file: content/fr/posts_categories/publications/_index.html
@@ -60,22 +71,26 @@ items:
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
+  new_tab: false
   children:
   - title: Positionnement
     target: "/fr/a-propos/positionnement/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/a-propos/positionnement"
     file: content/fr/pages/a-propos/positionnement/_index.html
   - title: Équipe
     target: "/fr/a-propos/equipe/"
     kind: page
+    new_tab: false
     children: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: Partenaires
     target: "/fr/a-propos/partenaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
