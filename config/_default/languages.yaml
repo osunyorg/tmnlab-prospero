@@ -10,6 +10,7 @@ fr:
     contact_details:
 
   permalinks:
+    pages_categories: /:slug/
     projects: /fiches/:year-:slug/
     projects_categories: /fiches/:slug/
     posts: /annexes/:year-:month-:day-:slug/
@@ -21,6 +22,7 @@ fr:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
@@ -37,6 +39,7 @@ en:
     contact_details:
 
   permalinks:
+    pages_categories: /:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     posts: /posts/:year-:month-:day-:slug/
@@ -48,6 +51,7 @@ en:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
