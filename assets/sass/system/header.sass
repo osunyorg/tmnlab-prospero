@@ -1,0 +1,25 @@
+header#document-header
+    .site-logo
+        align-items: center
+        display: flex
+        gap: space(2)
+        position: relative
+        .square-logo
+            display: flex
+            gap: space()
+            height: pxToRem(32)
+            width: pxToRem(32)
+            flex-wrap: wrap
+            span
+                height: pxToRem(14)
+                width: pxToRem(14)
+                &.blue
+                    background-color: $site-blue
+                &.purple
+                    background-color: $site-purple
+                &.pink
+                    background-color: $site-pink
+                &.orange
+                    background-color: $site-orange
+        a.logo
+            @include stretched-link

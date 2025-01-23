@@ -1,0 +1,42 @@
+// Hero
+.hero
+    &,
+    &--image-portrait
+        .content
+            figure
+                @include media-breakpoint-up(desktop)
+                    margin-right: var(--grid-gutter-negative)
+                    margin-top: $spacing-5
+                    width: columns(4)
+                @include media-breakpoint-up(xxl)
+                    margin-bottom: $spacing-5
+            @include media-breakpoint-down(desktop)
+                display: flex
+                flex-direction: column
+                figure
+                    order: -1
+                    margin-bottom: 0
+                    width: 100%
+                    img
+                        aspect-ratio: 16/9
+                        object-fit: cover
+                .hero-text
+                    margin-top: $spacing-4
+    &-credits
+        @include meta
+        margin-top: $spacing-4
+        p
+            margin-bottom: $spacing-3
+        .credits-logo
+            display: flex
+            flex-wrap: wrap
+            gap: var(--grid-gutter)
+            @include media-breakpoint-up(desktop)
+                img
+                    max-width: columns(2)
+    .quick-navigation
+        @include media-breakpoint-down(desktop)
+            display: none
+        @include media-breakpoint-up(desktop)
+            @include meta
+            text-align: right
