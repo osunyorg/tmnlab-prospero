@@ -1,0 +1,21 @@
+.block-call_to_action
+    &--accent_background
+        .top
+            .block-title + .description
+                margin-top: $spacing-3
+            .description p
+                @include lead
+        .actions
+            a:first-child
+                &::after
+                    content: none
+            a:last-child
+                --btn-border: 1px solid white
+                @extend .button
+            @include media-breakpoint-up(desktop)
+                padding-top: $spacing-3
+            @include media-breakpoint-up(xxl)
+                margin-right: offset(3)
+                padding-right: var(--column-width)
+                a
+                    width: calc((var(--column-width) + var(--grid-gutter)) * 2)

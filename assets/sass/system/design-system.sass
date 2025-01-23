@@ -1,0 +1,15 @@
+// blocks spacings
+main
+    --block-space-y: #{$block-space-y}
+    @include in-page-without-sidebar
+        --block-space-y: #{$block-space-y-desktop}
+    @include in-page-with-sidebar
+        --block-space-y: #{$block-space-y-with-sidebar}
+        
+// custom classes for blokcs
+.block-class-background-alt
+    background-color: $color-background-alt
+    padding-bottom: $spacing-6
+    padding-top: $spacing-6
+    .block-call_to_action--accent_background + &
+        margin-top: 0

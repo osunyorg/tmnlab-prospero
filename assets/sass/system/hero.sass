@@ -1,5 +1,10 @@
 // Hero
 .hero
+    .hero-text
+        hgroup
+            @include media-breakpoint-up(desktop)
+                p
+                    margin-top: $spacing-4
     &,
     &--image-portrait
         .content
@@ -22,6 +27,8 @@
                         object-fit: cover
                 .hero-text
                     margin-top: $spacing-4
+        @include media-breakpoint-down(desktop)
+            margin-bottom: $spacing-5
     &-credits
         @include meta
         margin-top: $spacing-4
