@@ -1,4 +1,4 @@
-// Header
+// Hero
 .hero
     &,
     &--image-portrait
@@ -15,6 +15,12 @@
         margin-top: $spacing-4
         p
             margin-bottom: $spacing-3
+        .credits-logo
+            display: flex
+            gap: var(--grid-gutter)
+            @include media-breakpoint-up(desktop)
+                img
+                    max-width: columns(2)
     .quick-navigation
         @include meta
         @include media-breakpoint-up(desktop)
