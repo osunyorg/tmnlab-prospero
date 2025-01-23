@@ -1,3 +1,7 @@
 hero:
   credits: Un projet porté par <a href="https://www.prospero-theatre.eu/project-extended-theatre/" title="Prospero Extended Theatre - lien externe" target="_blank" rel="noreferrer">Prospero Extended Theatre</a> et le <a href="https://www.tmnlab.com/" title="TMNlab - lien externe" target="_blank" rel="noreferrer">TMNlab</a>
   scroll: Défilez vers le bas
+footer:
+  credits:
+    europe: Co-financé par le Programme Europe Créative de l'Union Européenne
+    tmnlab: Copyright © 2024 Communauté TMNlab

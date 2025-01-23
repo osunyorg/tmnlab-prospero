@@ -13,3 +13,18 @@ main
     padding-top: $spacing-6
     .block-call_to_action--accent_background + &
         margin-top: 0
+
+// footer
+footer#document-footer
+    .footer-logo
+        @include media-breakpoint-up(desktop)
+            display: flex
+            justify-content: space-between
+            width: 100%
+            > p
+                @include meta
+        .logo
+            display: flex
+            gap: $spacing-3
+            p
+                max-width: columns(4)
