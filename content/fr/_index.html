@@ -6,7 +6,7 @@ title: >-
 url: "/fr/"
 slug: ""
 date: 2024-04-16T17:24:40+02:00
-lastmod: 2025-01-23T15:46:26+01:00
+lastmod: 2025-01-23T15:49:08+01:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -15,7 +15,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-04-16T17:24:40+02:00
-    updated_at: 2025-01-23T15:46:26+01:00
+    updated_at: 2025-01-23T15:49:08+01:00
     published_at: 2024-04-16T17:24:40+02:00
 
 breadcrumbs:
@@ -255,6 +255,7 @@ contents:
       
     ranks:
       base: 2
+      children: 2
     top:
       active: true
       title: 
@@ -271,12 +272,24 @@ contents:
         slug: "a-propos"
         file: "content/fr/pages/a-propos/_index.html"
       options:
-        image: true
+        image: false
         main_summary: true
-        summary: true
+        summary: false
 
-      layout: grid
+      layout: list
       pages:
+        - permalink: "/fr/a-propos/positionnement/"
+          path: "/pages/a-propos/positionnement"
+          slug: "positionnement"
+          file: "content/fr/pages/a-propos/positionnement/_index.html"
+        - permalink: "/fr/a-propos/equipe/"
+          path: "/persons"
+          slug: "equipe"
+          file: "content/fr/persons/_index.html"
+        - permalink: "/fr/a-propos/partenaires/"
+          path: "/organizations"
+          slug: "partenaires"
+          file: "content/fr/organizations/_index.html"
 
 
 
