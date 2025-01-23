@@ -11,8 +11,8 @@ params:
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: "/assets/images/logo-text.svg"
+    footer: "/assets/images/footer-eu.svg"
   menu:
     primary:
       level_2:

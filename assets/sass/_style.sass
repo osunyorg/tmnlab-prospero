@@ -1,0 +1,21 @@
+// Header
+.hero
+    &,
+    &--image-portrait
+        .content
+            @include media-breakpoint-up(desktop)
+                figure
+                    height: 100%
+                    margin-right: var(--grid-gutter-negative)
+                    margin-top: $spacing-5
+                    margin-bottom: -($spacing-5)
+                    width: columns(4)
+    &-credits
+        @include meta
+        margin-top: $spacing-4
+        p
+            margin-bottom: $spacing-3
+    .quick-navigation
+        @include meta
+        @include media-breakpoint-up(desktop)
+            text-align: right
