@@ -4,8 +4,6 @@ removePathAccents: true
 pagination:
   pagerSize: 30
 params:
-  breadcrumb:
-    position: after-hero
   summary:
     position: hero
   search:
