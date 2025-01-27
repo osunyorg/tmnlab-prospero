@@ -5,6 +5,11 @@
             @include media-breakpoint-up(desktop)
                 p
                     margin-top: $spacing-4
+        .btn
+            @extend .button-accent
+            .projects__page &
+                display: inline-flex
+
     &,
     &--image-portrait
         .content
@@ -47,5 +52,3 @@
         @include media-breakpoint-up(desktop)
             @include meta
             text-align: right
-    .btn
-        @extend .button-accent
