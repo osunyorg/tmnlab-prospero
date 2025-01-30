@@ -6,7 +6,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: 4 grandes rubriques
+  - title: Rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
     new_tab: false
