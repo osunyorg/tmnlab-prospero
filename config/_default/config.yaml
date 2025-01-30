@@ -16,6 +16,10 @@ params:
       level_2:
         title:
           active: true
+          summary:
+            active: true
+            source: "meta_description"
+            truncate: 0
   projects:
     index:
       layout: list
