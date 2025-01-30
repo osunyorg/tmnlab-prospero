@@ -6,6 +6,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Voir toutes les fiches
+    target: "/fr/fiches/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/projects"
+    file: content/fr/projects/_index.html
   - title: Rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
@@ -31,13 +38,6 @@ items:
       kind: url
       new_tab: false
       children: []
-  - title: Voir toutes les fiches
-    target: "/fr/fiches/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/projects"
-    file: content/fr/projects/_index.html
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Annexes
