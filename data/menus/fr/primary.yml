@@ -45,6 +45,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Explorez plus loin
+    target: "/fr/annexes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
   - title: Définitions
     target: "/fr/annexes/definitions/"
     kind: category
@@ -73,13 +80,6 @@ items:
     children: []
     path: "/posts_categories/publications"
     file: content/fr/posts_categories/publications/_index.html
-  - title: Explorez plus loin
-    target: "/fr/annexes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/posts"
-    file: content/fr/posts/_index.html
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: À propos
