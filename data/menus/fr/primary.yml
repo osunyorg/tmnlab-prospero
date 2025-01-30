@@ -101,6 +101,13 @@ items:
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
+  - title: Découvrir le projet
+    target: "/fr/a-propos/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/a-propos"
+    file: content/fr/pages/a-propos/_index.html
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 
