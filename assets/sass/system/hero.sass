@@ -51,3 +51,12 @@
         @include media-breakpoint-up(desktop)
             @include meta
             text-align: right
+            a
+                text-decoration: none
+                &::after
+                    @include icon-site(icon-arrow-down)
+                    display: inline-block
+                    font-size: $meta-size
+                    padding-left: $spacing-2
+                &:hover
+                    @include link
