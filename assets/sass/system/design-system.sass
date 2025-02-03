@@ -14,17 +14,28 @@ main
     .block-call_to_action--accent_background + &
         margin-top: 0
 
+// cta for all pages
+.global-call_to_action
+    margin-bottom: -($spacing-5)
+
 // footer
 footer#document-footer
     .footer-logo
+        > p
+            @include small
+        .logo
+            display: flex
+            gap: $spacing-3
         @include media-breakpoint-up(desktop)
             display: flex
             justify-content: space-between
             width: 100%
             > p
                 @include meta
-        .logo
-            display: flex
-            gap: $spacing-3
-            p
+            .logo p
                 max-width: columns(4)
+        @include media-breakpoint-down(desktop)
+            > p
+                margin-top: space(10)
+            .logo p
+                flex: 1

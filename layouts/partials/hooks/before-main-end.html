@@ -1,0 +1,22 @@
+{{ if not .IsHome }}
+  <div class="block block-call_to_action block-titled block-call_to_action--accent_background global-call_to_action">
+    <div class="container">
+      <div class="block-content">
+        <div class="call_to_action call_to_action--without-image call_to_action--with-title">
+          <div>
+            <div class="top">
+              <h2 class="block-title">{{ i18n "global_cta.title" }}</h2>
+              <div class="description">
+                <p>{{ i18n "global_cta.text" }}</p>
+              </div>
+            </div>
+            <div class="actions" role="group">
+              <a href="#" title="{{ i18n "global_cta.actions.discord" }} - lien externe" target="_blank" rel="noreferrer">{{ i18n "global_cta.actions.discord" }}</a>
+              <a href="mailto:MAIL" title="{{ i18n "global_cta.actions.contact" }}">{{ i18n "global_cta.actions.contact" }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
