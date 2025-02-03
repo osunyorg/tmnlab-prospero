@@ -1,13 +1,13 @@
 hero:
   credits: Un projet porté par <a href="https://www.prospero-theatre.eu/project-extended-theatre/" title="Prospero Extended Theatre - lien externe" target="_blank" rel="noreferrer">Prospero Extended Theatre</a> et le <a href="https://www.tmnlab.com/" title="TMNlab - lien externe" target="_blank" rel="noreferrer">TMNlab</a>
   scroll: Défilez vers le bas
-footer:
-  credits:
-    europe: Co-financé par le Programme Europe Créative de l'Union Européenne
-    tmnlab: Copyright © 2024 Communauté TMNlab
 global_cta:
   title: Envie de contribuer au projet
   text: "Depuis plus de 10 ans, le TMNlab anime une communauté apprenante de professionnels du spectacle vivant pour produire et diffuser une culture numérique responsable. Envie d’en savoir plus ou de contribuer au projet ? Contactez-nous."
   actions:
     discord: Rejoindre le Discord
     contact: Contacter le TMNlab
+footer:
+  credits:
+    europe: Co-financé par le Programme Europe Créative de l'Union Européenne
+    tmnlab: Copyright © 2024 Communauté TMNlab

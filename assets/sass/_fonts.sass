@@ -9,6 +9,13 @@
 @include font-face("Atkinson Hyperlegible", AtkinsonHyperlegible-BoldItalic, $weight: 700, $exts: (woff woff2))
 
 // Icons
+@font-face
+    font-display: block
+    font-family: 'icon-site'
+    font-style: normal
+    font-weight: 400
+    src: url('/assets/fonts/icons-site/icomoon.woff') format("woff")
+
 @mixin icon-site($icon)
     @include icon
     font-family: 'icon-site' !important

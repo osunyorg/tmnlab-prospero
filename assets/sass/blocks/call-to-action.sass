@@ -9,9 +9,15 @@
             a:first-child
                 &::after
                     content: none
+                &::before
+                    @include icon-site(icon-discord)
+                    margin-right: $spacing-1
             a:last-child
                 --btn-border: 1px solid white
                 @extend .button
+                &::before
+                    @include icon-site(icon-envelope)
+                    margin-right: $spacing-1
             @include media-breakpoint-down(md)
                 a
                     width: 100%
