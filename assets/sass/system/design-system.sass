@@ -5,6 +5,22 @@ main
         --block-space-y: #{$block-space-y-desktop}
     @include in-page-with-sidebar
         --block-space-y: #{$block-space-y-with-sidebar}
+
+
+// Links external icons
+header#document-header .primary-menu .nav-level-2,
+footer#document-footer,
+.hero,
+.contacts-details,
+.block:not(.block-contact),
+.block-contact .contacts > div > *:not(.socials-list)
+    a, .link
+        &[target="_blank"]:not(.icon)
+            &::after
+                @include icon-site(icon-external)
+                display: inline-block
+                font-size: 80% !important
+                margin-left: $spacing-1
         
 // custom classes for blokcs
 .block-class-background-alt
