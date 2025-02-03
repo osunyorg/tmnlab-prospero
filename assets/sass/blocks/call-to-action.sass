@@ -25,12 +25,13 @@
             @include media-breakpoint-down(md)
                 a
                     width: 100%
-            @include media-breakpoint-up(desktop)
+            @include media-breakpoint-up(lg)
                 margin-right: offset(3)
                 padding-right: var(--column-width)
                 padding-top: $spacing-3
                 a
                     width: calc(((var(--column-width) * 3) + (var(--grid-gutter)) * 3))
+                    white-space: nowrap
                     @include media-breakpoint-up(xl)
                         width: calc(((var(--column-width) * 3) + (var(--grid-gutter)) * 2))
                     @include media-breakpoint-up(xxl)

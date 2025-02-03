@@ -15,12 +15,20 @@ header#document-header
                 width: pxToRem(14)
                 &.blue
                     background-color: $site-blue
+                    .page-category-context &
+                        border: 2px solid $color-text
                 &.purple
                     background-color: $site-purple
+                    .page-category-basics &
+                        border: 2px solid $color-text
                 &.pink
                     background-color: $site-pink
+                    .page-category-techniques &
+                        border: 2px solid $color-text
                 &.orange
                     background-color: $site-orange
+                    .page-category-strategy &
+                        border: 2px solid $color-text
         a.logo
             @include stretched-link
     .primary-menu

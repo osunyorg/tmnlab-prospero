@@ -45,18 +45,32 @@
             @include media-breakpoint-up(desktop)
                 img
                     max-width: columns(2)
-    .quick-navigation
-        @include media-breakpoint-down(desktop)
-            display: none
-        @include media-breakpoint-up(desktop)
-            @include meta
-            text-align: right
-            a
-                text-decoration: none
-                &::after
-                    @include icon-site(icon-arrow-down)
-                    display: inline-block
-                    font-size: $meta-size
-                    padding-left: $spacing-2
-                &:hover
-                    @include link
+
+    // COLORS FOR "RUBRIQUES" CATEGORIES
+    .page-category-basics &
+        background-color: $site-purple
+    .page-category-context &
+        background-color: $site-blue
+    .page-category-strategy &
+        background-color: $site-orange
+    .page-category-techniques &
+        background-color: $site-pink
+
+// "GO DOWN" LINK
+.quick-navigation
+    @include media-breakpoint-down(desktop)
+        display: none
+    @include media-breakpoint-up(desktop)
+        @include meta
+        text-align: right
+        a
+            text-decoration: none
+            &::after
+                @include icon-site(icon-arrow-down)
+                display: inline-block
+                font-size: $meta-size
+                padding-left: $spacing-2
+            &:hover
+                @include link
+    .hero + &
+        margin-bottom: $spacing-5
