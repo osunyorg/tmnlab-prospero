@@ -23,3 +23,54 @@ header#document-header
                     background-color: $site-orange
         a.logo
             @include stretched-link
+    .primary-menu
+        .dropdown-menu-heading
+            position: relative
+            a
+                @include stretched-link
+                @include media-breakpoint-down(desktop)
+                    @include body-text
+            .dropdown-menu-summary
+                @include body-text
+        .nav-level-2
+            > li:first-child
+                a
+                    @extend .button-accent
+                    @include media-breakpoint-down(desktop)
+                        @include body-text
+                        width: 100%
+                @include media-breakpoint-up(desktop)
+                    bottom: 0
+                    left: var(--grid-gutter)
+                    position: absolute
+            @include media-breakpoint-up(desktop)
+                > li.has-children > a
+                    display: none
+            @include media-breakpoint-down(desktop)
+                li + li,
+                ul
+                    margin-top: space(5)
+                > li 
+                    a:any-link
+                        @include body-text
+                        font-family: $heading-font-family
+                        font-weight: 500
+                        padding: $btn-padding
+                        text-align: center
+                    // "rubriques"
+                    &:nth-child(2) > a
+                        border: 2px solid var(--color-text)
+                .nav-level-3
+                    li:first-child a
+                        background: $site-blue
+                    li:nth-child(2) a
+                        background: $site-purple
+                    li:nth-child(3) a
+                        background: $site-pink
+                    li:nth-child(4) a
+                        background: $site-orange
+        // in desktop : display black button under the "fiches" summary
+        @include media-breakpoint-up(desktop)
+            .dropdown-menu > .container
+                position: relative
+                padding-bottom: space(26)
