@@ -6,9 +6,13 @@
             .description p
                 @include lead
         .actions
-            a:first-child
+            a
+                align-items: flex-end
+                display: flex !important
+                justify-content: center
                 &::after
                     content: none
+            a:first-child
                 &::before
                     @include icon-site(icon-discord)
                     margin-right: $spacing-1
