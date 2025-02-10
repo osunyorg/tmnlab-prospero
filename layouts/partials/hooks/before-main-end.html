@@ -19,8 +19,8 @@
   {{ end }}
 
   {{/*  Projects (pages) case  */}}
-  {{ if .Params.taxonomies }}
-    {{ range .Params.taxonomies }}
+  {{ with or .Params.taxonomies .Params.section_taxonomies }}
+    {{ range . }}
       {{ if eq .name "Rubriques" }}
         {{ with $column_taxonomy }}
           <div class="navigation-taxonomies">

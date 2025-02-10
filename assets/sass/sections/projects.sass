@@ -22,13 +22,19 @@ article.project
         border: none
         @include media-breakpoint-up(desktop)
             flex-direction: row
+            gap: var(--column-width)
         .project-content
             .project-title
                 @include h4
             .project-description
                 max-width: 100%
-        .media img
-            aspect-ratio: 1
+            @include media-breakpoint-up(desktop)
+                max-width: columns(8)
+        .media 
+            img
+                aspect-ratio: 1
+            @include media-breakpoint-up(desktop)
+                width: calc(#{columns(3)} - var(--column-width))
 
 // colors
 .projects--list
@@ -90,8 +96,7 @@ article.project
                 @include icon(arrow-right-line, after, true)
                 @include hover-translate-icon;
     .taxonomy-categories
-        .projects__page &
-            @include grid(2, md)
+        @include grid(2, md)
         .projects_categories__term &
             @include grid(3, md)
         grid-gap: 0 !important
@@ -124,5 +129,6 @@ article.project
     + .global-call_to_action
         margin-top: 0
     // spacings
+    .document-content + &,
     .projects__page &
         margin-top: $spacing-6
