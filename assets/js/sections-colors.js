@@ -23,7 +23,7 @@ SectionContainer.prototype.setClassName = function(category, name) {
 };
 
 (function () {
-  var sectionsContainers = document.querySelectorAll('.navigation-taxonomies');
+  var sectionsContainers = document.querySelectorAll('.navigation-taxonomies, article.project, .taxonomies-single');
   sectionsContainers.forEach(function (section) {
       new SectionContainer(section);
   });

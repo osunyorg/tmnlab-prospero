@@ -4,14 +4,26 @@
             @extend .sr-only
         .dropdown-share
             position: relative
-
-article.project
-    .project-categories
-        li
-            a
-                background: $color-border
-                padding: space() space(2)
-                text-decoration: none
+    &:not(.full-width)
+        .project-sidebar .taxonomies-single
+            li.terms
+                .taxonomy-children
+                    display: inline-flex
+                    flex-wrap: wrap
+                    justify-content: flex-end
+                    flex: 1
+                    gap: space(3) space(2)
+                    li
+                        margin-left: 0
+                        + li
+                            margin-top: 0
+article.project .project-categories,
+.project-sidebar .taxonomies-single
+    li
+        a
+            background: $color-border
+            padding: space() space(2)
+            text-decoration: none !important
 
 .block-projects--list,
 .projects__section .projects--list,
@@ -30,6 +42,12 @@ article.project
                 max-width: 100%
             @include media-breakpoint-up(desktop)
                 max-width: columns(8)
+        .project-categories
+            .comprendre-le-contexte,
+            .maitriser-les-techniques,
+            .piloter-la-strategie,
+            .decouvrir-les-bases 
+                order: -1
         .media 
             img
                 aspect-ratio: 1
@@ -86,6 +104,7 @@ article.project
             display: none
     .global-call_to_action
         margin-top: 0
+
 // taxonomies
 .navigation-taxonomies
     .top
@@ -132,3 +151,17 @@ article.project
     .document-content + &,
     .projects__page &
         margin-top: $spacing-6
+
+// item colors
+.block-projects--list,
+.projects__section .projects--list,
+.projects_categories__term .projects--list,
+.project-sidebar .taxonomies-single
+    .comprendre-le-contexte a
+        background-color: $site-blue
+    .decouvrir-les-bases a
+        background-color: $site-purple
+    .maitriser-les-techniques a
+        background-color: $site-pink
+    .piloter-la-strategie a
+        background-color: $site-orange
