@@ -12,6 +12,7 @@ header#document-header
             flex-wrap: wrap
             span
                 height: pxToRem(14)
+                transition: all 0.5s ease-in-out
                 width: pxToRem(14)
                 &.blue
                     background-color: $site-blue
@@ -31,6 +32,17 @@ header#document-header
                         border: 2px solid $color-text
         a.logo
             @include stretched-link
+        &:hover
+            .blue
+                transform: translateX(calc(#{space()} + #{pxToRem(14)}))
+            .purple
+                transform: translateY(calc(#{space()} + #{pxToRem(14)}))
+            .pink
+                transform: translateY(calc(-#{space()} + -#{pxToRem(14)}))
+            .orange
+                transform: translateX(calc(-#{space()} + -#{pxToRem(14)}))
+
+
     .primary-menu
         .dropdown-menu-heading
             position: relative
