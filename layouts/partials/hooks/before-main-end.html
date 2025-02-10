@@ -1,5 +1,5 @@
 {{/*  Display "rubriques"'s children in children and projects pages'  */}}
-{{ $column_taxonomy_name := "projects_categories/rubriques" }}
+{{ $column_taxonomy_name := printf "projects_categories/%s" (lower (i18n "sections_block.title")) }}
 {{ $column_taxonomy := .Site.GetPage "section" $column_taxonomy_name }}
 {{ $is_column := cond (eq .Params.parent (printf "/%s" $column_taxonomy_name)) true false }}
 
@@ -49,6 +49,7 @@
                 <p>{{ i18n "global_cta.text" }}</p>
               </div>
             </div>
+            {{/*  TODO: ajouter les bonnes url  */}}
             <div class="actions" role="group">
               <a href="#" title="{{ i18n "global_cta.actions.discord" }} - lien externe" target="_blank" rel="noreferrer">{{ i18n "global_cta.actions.discord" }}</a>
               <a href="mailto:MAIL" title="{{ i18n "global_cta.actions.contact" }}">{{ i18n "global_cta.actions.contact" }}</a>
