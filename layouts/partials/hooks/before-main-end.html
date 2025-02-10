@@ -1,3 +1,42 @@
+{{/*  Display "rubriques"'s children in children and projects pages'  */}}
+{{ $column_taxonomy_name := "projects_categories/rubriques" }}
+{{ $column_taxonomy := .Site.GetPage "section" $column_taxonomy_name }}
+{{ $is_column := cond (eq .Params.parent (printf "/%s" $column_taxonomy_name)) true false }}
+
+  {{/*  Children (categories) case  */}}
+  {{ if $is_column }}
+    <div class="navigation-taxonomies">
+      <div class="container">
+        <div class="top">
+          <h2 class="block-title"><a href="/fr/fiches/">{{ i18n "sections_block.title" }}</a></h2>
+      </div>
+    </div>
+    {{ with $column_taxonomy }}
+      {{/*  When in rubrique/child_category, hide actual category  */}}
+      {{ $filtered_categories := where .Params.children "permalink" "!=" $.RelPermalink }}
+      {{ partial "taxonomies/categories" (dict "Params" (dict "children" $filtered_categories)) }}
+    {{ end }}
+  {{ end }}
+
+  {{/*  Projects (pages) case  */}}
+  {{ if .Params.taxonomies }}
+    {{ range .Params.taxonomies }}
+      {{ if eq .name "Rubriques" }}
+        {{ with $column_taxonomy }}
+          <div class="navigation-taxonomies">
+            <div class="container">
+              <div class="top">
+                <h2 class="block-title"><a href="/fr/fiches/">{{ i18n "sections_block.title" }}</a></h2>
+            </div>
+          </div>
+          {{ partial "taxonomies/categories" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+
+{{/*  Global CTA for all pages but home, at the end of main  */}}
 {{ if not .IsHome }}
   <div class="block block-call_to_action block-titled block-call_to_action--accent_background global-call_to_action">
     <div class="container">

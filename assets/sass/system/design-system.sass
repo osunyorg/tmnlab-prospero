@@ -31,8 +31,30 @@ footer#document-footer,
         margin-top: 0
 
 // cta for all pages
+.page-with-blocks
+    padding-bottom: 0
 .global-call_to_action
     margin-bottom: -($spacing-5)
+    @include in-page-with-sidebar
+        .posts__page &,
+        .projects__page &
+            margin-bottom: 0
+        .container
+            padding-left: 0
+        .call_to_action > div
+            display: flex
+            justify-content: space-between
+            padding-bottom: $spacing-6
+            padding-top: $spacing-6
+            padding-right: 0
+            .top
+                width: columns(7)
+                .description p
+                    @include lead
+            .actions
+                width: columns(4)
+                margin-right: 0
+
 
 // breadcrumb
 

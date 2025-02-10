@@ -45,3 +45,84 @@ article.project
             background: $site-pink
         .page-category-strategy &
             background: $site-orange
+// block colors
+.block-class-background-blue
+    background: $site-blue
+.block-class-background-purple
+    background: $site-purple
+.block-class-background-pink
+    background: $site-pink
+.block-class-background-orange
+    background: $site-orange
+
+// sections category
+.page-taxonomy-sections
+    .blocks
+        .top
+            a
+                @include icon(arrow-right-line, after)
+                @include hover-translate-icon(after)
+        .block.block-projects
+            margin-bottom: 0
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
+            @include media-breakpoint-up(desktop)
+                padding-bottom: space(32)
+                padding-top: space(32)
+            .project:last-child
+                .project-title
+                    border: none
+                    padding-bottom: 0
+            + .block-projects
+                margin-top: 0
+        // TODO : utiliser les nouveaux partials pour supprimer cet appel ?
+        + .container
+            display: none
+    .global-call_to_action
+        margin-top: 0
+// taxonomies
+.navigation-taxonomies
+    .top
+        .block-title
+            @include h5
+            margin-bottom: $spacing-4
+            a
+                @include icon(arrow-right-line, after, true)
+                @include hover-translate-icon;
+    .taxonomy-categories
+        .projects__page &
+            @include grid(2, md)
+        .projects_categories__term &
+            @include grid(3, md)
+        grid-gap: 0 !important
+        li
+            padding: var(--grid-gutter)
+            position: relative
+        .category
+            position: static
+            .category-title
+                @include h4
+                a
+                    @include icon(arrow-right-line, after)
+                        margin-left: space()
+                    @include hover-translate-icon(after)
+                    @include stretched-link(before)
+            > p
+                @include small
+                max-width: columns(5)
+            .media
+                display: none
+        // background colors (class added with js)
+        li.comprendre-le-contexte
+            background: $site-blue
+        li.decouvrir-les-bases
+            background: $site-purple
+        li.maitriser-les-techniques
+            background: $site-pink
+        li.piloter-la-strategie
+            background: $site-orange
+    + .global-call_to_action
+        margin-top: 0
+    // spacings
+    .projects__page &
+        margin-top: $spacing-6
