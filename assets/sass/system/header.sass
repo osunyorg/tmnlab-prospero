@@ -32,6 +32,7 @@ header#document-header
                         border: 2px solid $color-text
         a.logo
             @include stretched-link
+        // logo animation : move all squares then replace it
         &:hover
             .blue
                 transform: translateX(calc(#{space()} + #{pxToRem(14)}))
