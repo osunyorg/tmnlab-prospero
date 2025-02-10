@@ -5,8 +5,8 @@
         .dropdown-share
             position: relative
     &:not(.full-width)
-        .project-sidebar .taxonomies-single
-            li.terms
+        .project-sidebar 
+            .taxonomies-single li.terms
                 .taxonomy-children
                     display: inline-flex
                     flex-wrap: wrap
@@ -17,6 +17,11 @@
                         margin-left: 0
                         + li
                             margin-top: 0
+            .project-infos
+                > li:not(.terms)
+                    color: var(--color-text-alt)
+
+// colorfull chips for categories
 article.project .project-categories,
 .project-sidebar .taxonomies-single
     li
