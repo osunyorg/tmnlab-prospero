@@ -116,7 +116,7 @@ article.project .project-categories,
             a
                 @include icon(arrow-right-line, after, true)
                 @include hover-translate-icon;
-    .taxonomy-categories
+    ul.categories
         @include grid(2, md)
         .projects_categories__term &
             @include grid(3, md)
@@ -124,16 +124,16 @@ article.project .project-categories,
         li
             padding: var(--grid-gutter)
             position: relative
-        .category
+        .category-item
             position: static
-            .category-title
+            .term-title
                 @include h4
                 a
                     @include icon(arrow-right-line, after)
                         margin-left: space()
                     @include hover-translate-icon(after)
                     @include stretched-link(before)
-            > p
+            .rich-text
                 @include small
                 max-width: columns(5)
             .media
