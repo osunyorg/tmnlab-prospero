@@ -14,7 +14,8 @@
     {{ with $column_taxonomy }}
       {{/*  When in rubrique/child_category, hide actual category  */}}
       {{ $filtered_categories := where .Params.children "permalink" "!=" $.RelPermalink }}
-      {{ partial "taxonomies/categories" (dict "Params" (dict "children" $filtered_categories)) }}
+      {{/*  {{ partial "taxonomies/categories" (dict "Params" (dict "children" $filtered_categories)) }}  */}}
+
     {{ end }}
   {{ end }}
 
@@ -29,7 +30,7 @@
                 <h2 class="block-title"><a href="/fr/fiches/">{{ i18n "sections_block.title" }}</a></h2>
             </div>
           </div>
-          {{ partial "taxonomies/categories" . }}
+          {{/*  {{ partial "taxonomies/categories" . }}  */}}
         {{ end }}
       {{ end }}
     {{ end }}
