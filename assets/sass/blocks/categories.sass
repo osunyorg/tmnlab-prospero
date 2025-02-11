@@ -1,0 +1,25 @@
+.block-categories
+    &--projects
+        article
+            [class$="-title"]
+                @include h3
+        .page-category-context
+            background: $site-blue
+        .page-category-basics
+            background: $site-purple
+        .page-category-techniques
+            background: $site-pink
+        .page-category-strategy
+            background: $site-orange
+        ul.categories
+            @include grid(2, md, 0, 0)
+            margin-left: var(--grid-gutter-negative)
+            margin-right: var(--grid-gutter-negative)
+            > li
+                article
+                    padding: var(--grid-gutter)
+                    position: relative
+                    height: 100%
+                + li
+                    margin-top: 0
+    

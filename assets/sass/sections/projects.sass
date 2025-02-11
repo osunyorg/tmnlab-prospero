@@ -45,10 +45,7 @@ article.project .project-categories,
             @include media-breakpoint-up(desktop)
                 max-width: columns(8)
         .project-categories
-            .comprendre-le-contexte,
-            .maitriser-les-techniques,
-            .piloter-la-strategie,
-            .decouvrir-les-bases 
+            .ancestor-taxonomy-rubrics
                 order: -1
         .media 
             img
@@ -71,6 +68,7 @@ article.project .project-categories,
             background: $site-pink
         .page-category-strategy &
             background: $site-orange
+
 // block colors
 .block-class-background-blue
     background: $site-blue
@@ -104,55 +102,8 @@ article.project .project-categories,
         // TODO : utiliser les nouveaux partials pour supprimer cet appel ?
         + .container
             display: none
-    .global-call_to_action
+    .block-class-cta-contribute
         margin-top: 0
-
-// taxonomies
-.navigation-taxonomies
-    .top
-        .block-title
-            @include h5
-            margin-bottom: $spacing-4
-            a
-                @include icon(arrow-right-line, after, true)
-                @include hover-translate-icon;
-    ul.categories
-        @include grid(2, md)
-        .projects_categories__term &
-            @include grid(3, md)
-        grid-gap: 0 !important
-        li
-            padding: var(--grid-gutter)
-            position: relative
-        .category-item
-            position: static
-            .term-title
-                @include h4
-                a
-                    @include icon(arrow-right-line, after)
-                        margin-left: space()
-                    @include hover-translate-icon(after)
-                    @include stretched-link(before)
-            .rich-text
-                @include small
-                max-width: columns(5)
-            .media
-                display: none
-        // background colors (class added with js)
-        li.comprendre-le-contexte
-            background: $site-blue
-        li.decouvrir-les-bases
-            background: $site-purple
-        li.maitriser-les-techniques
-            background: $site-pink
-        li.piloter-la-strategie
-            background: $site-orange
-    + .global-call_to_action
-        margin-top: 0
-    // spacings
-    .document-content + &,
-    .projects__page &
-        margin-top: $spacing-6
 
 // item colors
 .block-projects--list,
@@ -167,3 +118,25 @@ article.project .project-categories,
         background-color: $site-pink
     .piloter-la-strategie a
         background-color: $site-orange
+
+.siblings-rubrics
+    .block-class-main-rubrics
+        margin-bottom: 0 !important
+        .top
+            .description
+                display: none
+        article
+            [class$="-title"]
+                @include h4
+            [class$="-content"]
+                @include small
+    + .block-class-cta-contribute
+        margin-top: 0 !important
+
+.projects_categories__term
+    main
+        padding-bottom: 0
+    .siblings-rubrics
+        .block-categories--projects
+            ul.categories
+                @include grid(3, md, 0, 0)

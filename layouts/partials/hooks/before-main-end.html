@@ -1,66 +1,45 @@
-{{/*  Display "rubriques"'s children in children and projects pages'  */}}
-{{/*  "Column" stands for "rubriques" to avoid confusion with "section" name  */}}
-{{ $column_taxonomy_name := printf "projects_categories/%s" (lower (i18n "sections_block.title")) }}
-{{ $column_taxonomy := .Site.GetPage "section" $column_taxonomy_name }}
-{{ $is_column := cond (eq .Params.parent (printf "/%s" $column_taxonomy_name)) true false }}
+{{ $context := . }}
+{{ $home := site.GetPage "/" }}
+{{ $is_single_project := eq .Type "projects" }}
+{{ $rubric_taxonomy_name := printf "projects_categories/%s" (lower (i18n "rubrics.title")) }}
+{{ $rubric_taxonomy := .Site.GetPage "section" $rubric_taxonomy_name }}
+{{ $is_rubric_term := cond (eq .Params.parent (printf "/%s" $rubric_taxonomy_name)) true false }}
 
-  {{/*  Children (categories) case  */}}
-  {{ if $is_column }}
-    <div class="navigation-taxonomies">
-      <div class="container">
-        <div class="top">
-          <h2 class="block-title"><a href="/fr/fiches/">{{ i18n "sections_block.title" }}</a></h2>
-      </div>
-    </div>
-    {{ with $column_taxonomy }}
-      {{/*  When in rubrique/child_category, hide actual category  */}}
-      {{ $filtered_categories := where .Params.children "permalink" "!=" $.RelPermalink }}
-      {{ partial "categories/section/categories" (dict 
-          "Params" (dict "children" $filtered_categories)
-          "Kind" "term"
-        )}}
-    {{ end }}
-  {{ end }}
+{{ if or $is_rubric_term $is_single_project }}
+  <div class="siblings-rubrics">
+    {{ with $home }}
+      {{ $block := "" }}
 
-  {{/*  Projects (pages) case  */}}
-  {{ with or .Params.taxonomies .Params.section_taxonomies }}
-    {{ range . }}
-      {{ if eq .name "Rubriques" }}
-        {{ with $column_taxonomy }}
-          <div class="navigation-taxonomies">
-            <div class="container">
-              <div class="top">
-                <h2 class="block-title"><a href="/fr/fiches/">{{ i18n "sections_block.title" }}</a></h2>
-            </div>
-          </div>
-          {{ partial "categories/section/categories" . }}
+      {{ range .Params.contents }}
+        {{ if eq .html_class "block-class-main-rubrics" }}
+          {{ $block = . }}
         {{ end }}
       {{ end }}
+
+      {{ with $block }}
+        {{ if $is_rubric_term }}
+          {{/*  Si on est sur une catégorie de rubrique on exclut cette même catégorie  */}}
+          {{ $siblings := where $rubric_taxonomy.Params.children "permalink" "!=" $context.RelPermalink }}
+          {{ $block = merge . (dict "data" (dict "categories" $siblings)) }}
+        {{ end }}
+
+        {{ partial "blocks/templates/categories.html" ( dict "block" $block ) }}
+      {{ end }}
     {{ end }}
-  {{ end }}
-</div>
+  </div>
+{{ end }}
 
 {{/*  Global CTA for all pages but home, at the end of main  */}}
 {{ if not .IsHome }}
-  <div class="block block-call_to_action block-titled block-call_to_action--accent_background global-call_to_action">
-    <div class="container">
-      <div class="block-content">
-        <div class="call_to_action call_to_action--without-image call_to_action--with-title">
-          <div>
-            <div class="top">
-              <h2 class="block-title">{{ i18n "global_cta.title" }}</h2>
-              <div class="description">
-                <p>{{ i18n "global_cta.text" }}</p>
-              </div>
-            </div>
-            {{/*  TODO: ajouter les bonnes url  */}}
-            <div class="actions" role="group">
-              <a href="#" title="{{ i18n "global_cta.actions.discord" }} - lien externe" target="_blank" rel="noreferrer">{{ i18n "global_cta.actions.discord" }}</a>
-              <a href="mailto:MAIL" title="{{ i18n "global_cta.actions.contact" }}">{{ i18n "global_cta.actions.contact" }}</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {{ with $home }}
+    {{ $block := "" }}
+    {{ range .Params.contents }}
+      {{ if eq .html_class "block-class-cta-contribute" }}
+        {{ $block = . }}
+      {{ end }}
+    {{ end }}
+    {{ with $block }}
+      {{ partial "blocks/templates/call_to_action.html" ( dict "block" . ) }}
+    {{ end }}
+  {{ end }}
 {{ end }}
