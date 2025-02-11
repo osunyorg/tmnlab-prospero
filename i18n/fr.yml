@@ -17,3 +17,17 @@ projects:
   count:
     one: 1 fiche
     other: "{{ .Count }} fiches"
+  next: Fiche suivante
+  next_aria: Fiche suivante “{{ .Title }}”
+  none: Aucune fiche
+  previous: Fiche précédente
+  previous_aria: Fiche précédente “{{ .Title }}”
+posts:
+  count: 
+    one: "1 annexe"
+    other: "{{ .Count }} annexes"
+  next: Annexe suivante
+  next_aria: Annexe suivante “{{ .Title }}”
+  none: Aucune annexe publiée
+  previous: Annexe précédente
+  previous_aria: Annexe précédente “{{ .Title }}”

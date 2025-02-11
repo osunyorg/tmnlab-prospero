@@ -18,6 +18,17 @@
                         + li
                             margin-top: 0
 
+.projects__section
+    .hero
+        .hero-text
+        .btn
+            align-items: center
+            display: flex
+            gap: space(2)
+            width: fit-content
+            &::before
+                @include icon-site("icon-tag")
+
 // colorfull chips for categories
 article.project .project-categories,
 .project-sidebar .taxonomies-single
@@ -31,9 +42,8 @@ article.project .project-categories,
 .projects__section .projects--list,
 .projects_categories__term .projects--list
     .project
-        padding-bottom: 0
         margin-bottom: $spacing-5
-        border: none
+        padding-bottom: $spacing-5
         @include media-breakpoint-up(desktop)
             flex-direction: row
             gap: var(--column-width)
@@ -45,20 +55,23 @@ article.project .project-categories,
             @include media-breakpoint-up(desktop)
                 max-width: columns(8)
         .project-categories
-            .ancestor-taxonomy-rubrics
+            .ancestor-taxonomy-rubrics,
+            .ancestor-taxonomy-sections
                 order: -1
+            row-gap: space(3)
         .media 
             img
                 aspect-ratio: 1
             @include media-breakpoint-up(desktop)
                 width: calc(#{columns(3)} - var(--column-width))
 
+.block-projects--list
+    .project
+        border: none
+        padding-bottom: 0
 // colors
 .projects--list
-    .project-categories a[href="//localhost:1313/fr/fiches/rubriques/decouvrir-les-bases/"],
-    .project-categories a[href="//localhost:1313/fr/fiches/rubriques/maitriser-les-techniques/"],
-    .project-categories a[href="//localhost:1313/fr/fiches/rubriques/comprendre-le-contexte/"],
-    .project-categories a[href="//localhost:1313/fr/fiches/rubriques/piloter-la-strategie/"],
+    // TODO : add bodyclasses to put colors on project media
     .media
         .page-category-context &
             background: $site-blue

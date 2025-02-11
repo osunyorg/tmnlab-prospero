@@ -36,3 +36,22 @@
                         width: calc(((var(--column-width) * 3) + (var(--grid-gutter)) * 2))
                     @include media-breakpoint-up(xxl)
                         width: calc((var(--column-width) + var(--grid-gutter)) * 2)
+    // homepage
+    &.block-class-call_to_action-before-block
+        .top
+            .description p
+                @include lead-hero
+        .block-content
+            @include in-page-without-sidebar
+                padding-top: 0
+        .actions
+            a::before
+                @include icon-site("icon-tag")
+                margin-right: space(2)
+        @include media-breakpoint-up(desktop)
+            margin-bottom: 0
+            + .block-projects
+                margin-top: 0
+                .list article:first-child
+                    .project-title
+                        padding-top: 0

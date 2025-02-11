@@ -2,4 +2,15 @@
     &--list
         @include in-page-without-sidebar
             .top .description p
-                @include lead
+                @include lead-hero
+        .list 
+            .page 
+                > a
+                    @include h6
+                    @include icon(arrow-right-line, after)
+                        margin-left: space()
+                    @include hover-translate-icon
+                    &::before
+                        content: none
+                + .page
+                    margin-top: $spacing-3 !important

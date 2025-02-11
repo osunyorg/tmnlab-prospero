@@ -1,8 +1,24 @@
 .block-categories
+    .top
+        .description
+            @include lead-hero
+    &--grid
+        @include media-breakpoint-up(desktop)
+            .top
+                display: flex
+                margin-bottom: $spacing-5
+                .block-title
+                    width: columns(4)
+                    + .description
+                        margin-top: 0
+                .description
+                    flex: 1
     &--projects
         article
             [class$="-title"]
                 @include h3
+                a
+                    @include hover-translate-icon
         .page-category-context
             background: $site-blue
         .page-category-basics
@@ -22,4 +38,67 @@
                     height: 100%
                 + li
                     margin-top: 0
-    
+    &--posts 
+        &.block-categories--list
+            background: var(--color-background-alt)
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
+            margin-bottom: 0
+            @include media-breakpoint-up(desktop)
+                padding-bottom: $spacing-6
+                padding-top: $spacing-6
+            + .block-call_to_action--accent_background
+                margin-top: 0
+            .block-content
+                @include media-breakpoint-up(desktop)
+                    display: flex
+                    gap: var(--grid-gutter)
+                    .top
+                        width: columns(7)
+                    ul
+                        margin-left: offset(1)
+                    .category-content
+                        width: columns(4)
+                        padding-right: 0
+                li
+                    padding: 0
+                    border-bottom: 0
+                    + li
+                        margin-top: $spacing-3
+                    .term-title::before
+                        margin-right: space()
+                    &:nth-child(1)
+                        .term-title::before
+                            @include icon-site("icon-research")
+                    &:nth-child(2)
+                        .term-title::before
+                            @include icon-site("icon-dialog")
+                    &:nth-child(3)
+                        .term-title::before
+                            @include icon-site("icon-book")
+                article
+                    [class$="-content"] 
+                        [class$="-title"]
+                            @include h6
+                            a
+                                @include icon(arrow-right-line, after)
+                                    margin-left: space()
+                                @include hover-translate-icon
+                        .articles-count
+                            margin-top: 0
+                            position: relative
+            &.block-class-stretched-link-from-content
+                .top
+                    position: relative
+                    .block-title
+                        @include icon(arrow-right-line, after)
+                            display: inline-block
+                            margin-left: space()
+                            transition: 0.55s $arrow-ease-transition
+                    .description
+                        a
+                            @include stretched-link
+                            text-decoration: none
+                    &:hover
+                        .block-title::after
+                            transform: translateX(#{pxToRem(10)})

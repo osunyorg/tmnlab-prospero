@@ -25,8 +25,11 @@ footer#document-footer,
 // custom classes for blokcs
 .block-class-background-alt
     background-color: $color-background-alt
-    padding-bottom: $spacing-6
-    padding-top: $spacing-6
+    padding-bottom: $spacing-5
+    padding-top: $spacing-5
+    @include media-breakpoint-up(desktop)
+        padding-bottom: $spacing-6
+        padding-top: $spacing-6
     .block-call_to_action--accent_background + &
         margin-top: 0
 
