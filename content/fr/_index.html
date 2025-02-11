@@ -6,7 +6,7 @@ title: >-
 url: "/fr/"
 slug: ""
 date: 2024-04-16T17:24:40+02:00
-lastmod: 2025-02-11T11:41:40+01:00
+lastmod: 2025-02-11T11:53:25+01:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -15,7 +15,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-04-16T17:24:40+02:00
-    updated_at: 2025-02-11T11:41:40+01:00
+    updated_at: 2025-02-11T11:53:25+01:00
     published_at: 2024-04-16T17:24:40+02:00
 
 breadcrumbs:
@@ -169,7 +169,7 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: categories
     title: >-
       Des annexes complémentaires
     slug: >-
@@ -184,19 +184,37 @@ contents:
           Des annexes complémentaires
         heading: 2
     data:
-      mode: categories
       layout: grid
+      description: >-
+        
+
       options:
-        author: false
-        categories: false
-        date: false
-        image: false
-        reading_time: false
-        subtitle: true
+        count: true
+        image: true
         summary: true
 
-      posts:
+      category_kind: posts
+      taxonomy_id: 
 
+      categories:
+        - permalink: "/fr/annexes/definitions/"
+          path: "/posts_categories/definitions"
+          slug: "definitions"
+          file: "content/fr/posts_categories/definitions/_index.html"
+          name: ""
+          count: 5
+        - permalink: "/fr/annexes/temoignages/"
+          path: "/posts_categories/temoignages"
+          slug: "temoignages"
+          file: "content/fr/posts_categories/temoignages/_index.html"
+          name: ""
+          count: 4
+        - permalink: "/fr/annexes/publications/"
+          path: "/posts_categories/publications"
+          slug: "publications"
+          file: "content/fr/posts_categories/publications/_index.html"
+          name: ""
+          count: 1
 
 
   - kind: block
