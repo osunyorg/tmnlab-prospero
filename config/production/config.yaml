@@ -2,6 +2,11 @@
 
 baseURL: https://prospero.tmnlab.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: e36a47d7-87d3-484b-9f14-1de04a9cf0c2
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
