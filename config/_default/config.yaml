@@ -20,6 +20,11 @@ params:
             active: true
             source: "meta_description"
             truncate: 0
+  posts:
+    default_image: false
+    date_format: ":date_long"
+    index:
+      taxonomies: false
   projects:
     index:
       layout: list
@@ -28,3 +33,6 @@ params:
       projects:
         list:
           mobile: 327
+      categories:
+        large:
+          desktop: 864

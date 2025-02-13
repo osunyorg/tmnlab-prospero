@@ -1,0 +1,14 @@
+.posts__section
+    .blocks
+        .block-categories--large
+            .category-item
+                align-items: center
+                [class$="-title"]
+                    @include h2
+            .more
+                display: none
+            .media img
+                aspect-ratio: 1
+        // hide posts list
+        + .container
+            display: none
