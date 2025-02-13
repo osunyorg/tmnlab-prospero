@@ -39,35 +39,39 @@ article.project .project-categories,
             text-decoration: none !important
 
 .block-projects--list,
+.projects--list,
 .projects__section .projects--list,
 .projects_categories__term .projects--list
-    .project
-        margin-bottom: $spacing-5
-        padding-bottom: $spacing-5
-        @include media-breakpoint-up(desktop)
-            flex-direction: row
-            gap: var(--column-width)
-        .project-content
-            .project-title
-                @include h4
-            .project-description
-                max-width: 100%
-            @include media-breakpoint-up(desktop)
-                max-width: columns(8)
-        .project-categories
-            .ancestor-taxonomy-rubrics
+    > li
+        .project
+            .project-content
+                flex: 1
+                .project-description
+                    max-width: 100%
+                @include media-breakpoint-up(desktop)
+                    padding-right: 0 !important
+            .project-categories
+                display: flex
+                .ancestor-taxonomy-rubrics
+                    order: -1
+                row-gap: space(3)
+            .media 
                 order: -1
-            row-gap: space(3)
-        .media 
-            img
-                aspect-ratio: 1
+                img
+                    aspect-ratio: 1
             @include media-breakpoint-up(desktop)
-                width: calc(#{columns(3)} - var(--column-width))
+                flex-direction: row
+                gap: var(--column-width)
+                .media
+                    width: calc(#{columns(3)} - var(--column-width))
+            @include in-page-without-sidebar
+                .project-title
+                    @include h4
+// .projects--list
+//     > li
+//         border: none
+//         padding-bottom: 0
 
-.block-projects--list
-    .project
-        border: none
-        padding-bottom: 0
 // colors
 .projects--list
     // TODO : add bodyclasses to put colors on project media
