@@ -5,10 +5,21 @@
                 align-items: center
                 [class$="-title"]
                     @include h2
-            .more
-                display: none
-            .media img
-                aspect-ratio: 1
+                .more
+                    display: none
+                .media img
+                    aspect-ratio: 1
+            // icons
+            .articles-count::before
+                color: var(--color-text)
+                font-size: 85%
+                margin-right: space()
+            .page-category-testimonials .articles-count::before
+                @include icon-site("icon-dialog")
+            .page-category-studies .articles-count::before
+                @include icon-site("icon-research")
+            .page-category-publications .articles-count::before
+                @include icon-site("icon-book")
         // hide posts list
         + .container
             display: none
