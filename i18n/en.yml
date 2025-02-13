@@ -1,3 +1,29 @@
+commons:
+  credit: A low impact website crafted by <a href="https://collectifbam.fr/ecosysteme/anthony-ferretti/" title="Anthony Feretti - lien externe" target="_blank" rel="noreferrer">Anthony Feretti</a> and <a href="https://www.noesya.coop/" title="noesya - lien externe" target="_blank" rel="noreferrer">noesya</a> with <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
 hero:
   credits: A project suported by <a href="https://www.prospero-theatre.eu/project-extended-theatre/" title="Prospero Extended Theatre - external link" target="_blank" rel="noreferrer">Prospero Extended Theatre</a> and the <a href="https://www.tmnlab.com/" title="TMNlab - external link" target="_blank" rel="noreferrer">TMNlab</a>
   scroll: Scroll down
+footer:
+  credits:
+    europe: Co-financed by the European Union's Creative Europe Programme
+    tmnlab: Copyright © 2024 Communauté TMNlab
+rubrics:
+  title: Rubrics
+projects:
+  count:
+    one: 1 note
+    other: "{{ .Count }} notes"
+  next: Next note
+  next_aria: Next note “{{ .Title }}”
+  none: Aucune note
+  previous: Previous note
+  previous_aria: Previous note “{{ .Title }}”
+posts:
+  count: 
+    one: "1 appendix"
+    other: "{{ .Count }} appendices"
+  next: Next appendix
+  next_aria: Next	appendix “{{ .Title }}”
+  none: No appendix published
+  previous: Previous appendix
+  previous_aria: Previous	appendix “{{ .Title }}”
