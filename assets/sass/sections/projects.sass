@@ -134,20 +134,25 @@ article.project .project-categories,
         margin-top: 0
 
 // item colors
-.project,
-.project-sidebar .taxonomies-single
-    .comprendre-le-contexte a,
+.project
     .page-context a
         background-color: $site-blue !important
-    .decouvrir-les-bases a,
     .page-basics a
         background-color: $site-purple !important
-    .maitriser-les-techniques a,
     .page-technics a
         background-color: $site-pink !important
-    .piloter-la-strategie a,
     .page-strategy a
         background-color: $site-orange !important
+.project-sidebar
+    .terms:first-child a
+        .category-context &
+            background: $site-blue
+        .category-basics &
+            background: $site-purple
+        .category-technics &
+            background: $site-pink
+        .category-strategy &
+            background: $site-orange
 
 .siblings-rubrics
     .block-class-main-rubrics
