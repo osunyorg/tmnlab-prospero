@@ -67,10 +67,21 @@ article.project .project-categories,
             @include in-page-without-sidebar
                 .project-title
                     @include h4
-// .projects--list
-//     > li
-//         border: none
-//         padding-bottom: 0
+.projects--list
+    @include media-breakpoint-down(desktop)
+        > li
+            &:not(:first-child)
+                padding-top: space(10)
+            &:not(:last-child)
+                padding-bottom: space(10)
+        article
+            .media 
+                width: 100%
+                picture
+                    aspect-ratio: 16/9
+                img
+                    height: 100%
+                    object-fit: cover
 
 // colors
 .projects--list
@@ -104,17 +115,18 @@ article.project .project-categories,
                 @include hover-translate-icon(after)
         .block.block-projects
             margin-bottom: 0
-            padding-bottom: $spacing-5
             padding-top: $spacing-5
+            padding-bottom: $spacing-5
             @include media-breakpoint-up(desktop)
-                padding-bottom: space(32)
-                padding-top: space(32)
+                padding-top: $spacing-6
             .project:last-child
                 .project-title
                     border: none
                     padding-bottom: 0
             + .block-projects
                 margin-top: 0
+            .ancestor-taxonomy-rubrics
+                display: none
         // TODO : utiliser les nouveaux partials pour supprimer cet appel ?
         + .container
             display: none

@@ -23,3 +23,8 @@ params:
   projects:
     index:
       layout: list
+  image_sizes:
+    sections:
+      projects:
+        list:
+          mobile: 327

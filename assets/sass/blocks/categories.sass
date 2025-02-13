@@ -65,16 +65,16 @@
                     border-bottom: 0
                     + li
                         margin-top: $spacing-3
-                    .term-title::before
+                    [class$="-title"]::before
                         margin-right: space()
                     &:nth-child(1)
-                        .term-title::before
+                        [class$="-title"]::before
                             @include icon-site("icon-research")
                     &:nth-child(2)
-                        .term-title::before
+                        [class$="-title"]::before
                             @include icon-site("icon-dialog")
                     &:nth-child(3)
-                        .term-title::before
+                        [class$="-title"]::before
                             @include icon-site("icon-book")
                 article
                     [class$="-content"] 
@@ -87,18 +87,3 @@
                         .articles-count
                             margin-top: 0
                             position: relative
-            &.block-class-stretched-link-from-content
-                .top
-                    position: relative
-                    .block-title
-                        @include icon(arrow-right-line, after)
-                            display: inline-block
-                            margin-left: space()
-                            transition: 0.55s $arrow-ease-transition
-                    .description
-                        a
-                            @include stretched-link
-                            text-decoration: none
-                    &:hover
-                        .block-title::after
-                            transform: translateX(#{pxToRem(10)})
