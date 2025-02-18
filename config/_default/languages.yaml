@@ -17,6 +17,9 @@ fr:
     posts_categories: /annexes/:slug/
     organizations: /a-propos/partenaires/:slug/
     organizations_categories: /a-propos/partenaires/categories/:slug/
+    persons: /a-propos/equipe/:slug/
+    persons_categories: /a-propos/equipe/categories/:slug/
+    authors: /a-propos/equipe/:slug/annexes/
   taxonomies:
     administrator: administrators
     author: authors
@@ -49,6 +52,9 @@ en:
     posts_categories: /posts/:slug/
     organizations: /a-propos/organizations/:slug/
     organizations_categories: /a-propos/organizations/categories/:slug/
+    persons: /a-propos/team/:slug/
+    persons_categories: /a-propos/team/categories/:slug/
+    authors: /a-propos/team/:slug/posts/
   taxonomies:
     administrator: administrators
     author: authors
