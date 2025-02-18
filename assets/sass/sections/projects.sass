@@ -1,11 +1,13 @@
-.projects__page
+.projects__page,
+.posts__page
     .hero
         .year
             @extend .sr-only
         .dropdown-share
             position: relative
     &:not(.full-width)
-        .project-sidebar 
+        .project-sidebar,
+        .post-sidebar
             .taxonomies-single li.terms
                 .taxonomy-children
                     display: inline-flex
@@ -31,7 +33,8 @@
 
 // colorfull chips for categories
 article.project .project-categories,
-.project-sidebar .taxonomies-single
+article.post .post-categories,
+.section-sidebar .taxonomies-single
     li
         a
             background: $color-border
