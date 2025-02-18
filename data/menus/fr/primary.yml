@@ -52,13 +52,6 @@ items:
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
-  - title: Définitions
-    target: "/fr/annexes/definitions/"
-    kind: category
-    new_tab: false
-    children: []
-    path: "/posts_categories/definitions"
-    file: content/fr/posts_categories/definitions/_index.html
   - title: Témoignages
     target: "/fr/annexes/temoignages/"
     kind: category
