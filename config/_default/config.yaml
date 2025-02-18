@@ -28,6 +28,11 @@ params:
   projects:
     index:
       layout: list
+  categories:
+    index:
+      layout: list
+      options:
+        image: false
   image_sizes:
     sections:
       projects:
