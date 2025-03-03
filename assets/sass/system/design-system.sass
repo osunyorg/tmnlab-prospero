@@ -127,6 +127,10 @@ body:not(.page__home)
             .block-title::after
                 transform: translateX(#{pxToRem(10)})
 
+@include media-breakpoint-down(desktop)
+    .toc-cta-title
+        span
+            text-align: left
 // Large screens
 @include media-breakpoint-up(xxl)
     body:not(.full-width)
