@@ -20,6 +20,9 @@ params:
             active: true
             source: "meta_description"
             truncate: 0
+  persons:
+    index:
+      layout: list
   posts:
     default_image: false
     date_format: ":date_long"
