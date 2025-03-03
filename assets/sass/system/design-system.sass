@@ -126,6 +126,10 @@ body:not(.page__home)
             .block-title::after
                 transform: translateX(#{pxToRem(10)})
 
+// Title
+.block-title.heading
+    margin-bottom: $spacing-4
+
 // Table of content | TOC
 @include media-breakpoint-down(desktop)
     .toc-cta-title
@@ -144,8 +148,11 @@ body:not(.page__home)
         .document-content
             .heading
                 h2
-                    width: columns(10)
+                    width: columns(11)
             .block-chapter
                 .block-content
                     width: columns(10)
-    
+            .block-image
+                figcaption
+                    @include small
+                    width: columns(7)
