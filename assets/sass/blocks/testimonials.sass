@@ -7,11 +7,18 @@
             p::before
                 content: '«'
                 position: absolute
-                left: -3.5%
+                left: -2%
                 line-height: 1
+            &.is-long
+                p
+                    line-height: 140%
     figcaption
+        margin-top: space(8)
         .meta
             font-family: $body-font-family
+            color: var(--color-text-alt)
         .avatar
             border-radius: 0
             margin-right: $spacing-3
+            width: var(--column-width)
+            min-width: var(--column-width)
