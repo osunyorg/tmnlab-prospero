@@ -4,7 +4,7 @@
             .block-title + .description
                 margin-top: $spacing-3
             .description p
-                @include lead
+                @include lead-hero
         .actions
             a
                 align-items: flex-end
@@ -30,12 +30,7 @@
                 padding-right: var(--column-width)
                 padding-top: $spacing-3
                 a
-                    width: calc(((var(--column-width) * 3) + (var(--grid-gutter)) * 3))
                     white-space: nowrap
-                    @include media-breakpoint-up(xl)
-                        width: calc(((var(--column-width) * 3) + (var(--grid-gutter)) * 2))
-                    @include media-breakpoint-up(xxl)
-                        width: calc((var(--column-width) + var(--grid-gutter)) * 2)
     // homepage
     &.block-class-call_to_action-before-block
         .block-title
