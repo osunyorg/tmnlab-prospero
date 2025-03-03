@@ -11,7 +11,7 @@
       {{ $block := "" }}
 
       {{ range .Params.contents }}
-        {{ if eq .html_class "block-class-main-rubrics" }}
+        {{ if eq .html_class "block-class-main-rubrics block-class-stretched-link-from-content" }}
           {{ $block = . }}
         {{ end }}
       {{ end }}
