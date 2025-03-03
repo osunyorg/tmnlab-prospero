@@ -1,8 +1,5 @@
 theme: osuny
-enableRobotsTXT: true
-removePathAccents: true
-pagination:
-  pagerSize: 30
+_merge: deep
 params:
   summary:
     position: hero

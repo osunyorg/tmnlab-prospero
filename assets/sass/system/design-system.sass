@@ -126,3 +126,15 @@ body:not(.page__home)
         &:hover
             .block-title::after
                 transform: translateX(#{pxToRem(10)})
+
+// Large screens
+@include media-breakpoint-up(xxl)
+    body:not(.full-width)
+        .document-content
+            .heading
+                h2
+                    width: columns(7) !important
+            .block
+                .block-content
+                    padding-right: offset(5) !important
+    

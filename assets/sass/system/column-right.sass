@@ -1,0 +1,74 @@
+@include media-breakpoint-up(desktop)
+    .document-content
+        min-height: 550px
+    .pages__section:not(.full-width),
+    .posts__page:not(.full-width),
+    .projects__page:not(.full-width)
+        .toc
+            ol
+                align-items: end
+        .document-content
+            .block
+                .block-content
+                    padding-left: 0 !important
+                    padding-right: offset(4)
+                &-title
+                    h2
+                        padding-left: 0 !important
+                        width: columns(8)
+            .section-sidebar
+                margin-right: grid-external-space()
+                right: 0
+                left: unset
+                > div
+                    position: relative
+                    height: calc(100% - calc(#{$spacing-5} + #{$spacing-3}))
+                    top: 0 !important
+                    .toc-container
+                        height: unset
+                        position: sticky
+                        top: calc(#{$spacing-5} + #{$spacing-3})
+                        transition: top .3s
+                    .toc-content
+                        padding-bottom: 0
+                // Remove categories
+                .post-infos
+                    > li:first-of-type
+                        display: none
+                .post-infos,
+                .project-infos,
+                .taxonomies-single
+                    text-align: right
+                    li
+                        border-top: none !important
+                    > li
+                        display: block
+                        > span
+                            display: block
+                            margin-bottom: $spacing-2
+                .toc-content
+                    text-align: right
+                    .toc-pages
+                        ol
+                            align-items: flex-end
+                .toc-container
+                    border-top: none
+                    padding-top: $spacing-3
+                .project-infos,
+                .post-infos
+                    li
+                        border-top: none
+                        &:last-child
+                            padding-bottom: 0
+    .pages__section:not(.full-width)
+        .toc-container
+            margin-right: grid-external-space()
+            right: 0
+            left: unset
+            text-align: right
+            > div
+                top: calc(#{$spacing-5} + #{$spacing-3})
+            .toc-pages
+                ol
+                    align-items: flex-end
+ 
