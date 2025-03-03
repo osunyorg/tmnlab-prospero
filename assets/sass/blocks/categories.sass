@@ -87,3 +87,8 @@
                         .articles-count
                             margin-top: 0
                             position: relative
+    &--large 
+        @include media-breakpoint-up(desktop)
+            .categories
+                > li + li
+                    margin-top: $spacing-6
