@@ -48,7 +48,7 @@ header#document-header
             .container
                 gap: var(--column-width)
                 align-items: flex-end
-            .nav-level-1 
+            .nav-level-1
                 a.active,
                 a:hover
                     text-decoration: underline
@@ -84,7 +84,7 @@ header#document-header
                         &:first-child
                             margin-top: 0
                         + li 
-                            margin-top: space(4)
+                            margin-top: $spacing-3
             @include media-breakpoint-down(desktop)
                 li + li,
                 ul

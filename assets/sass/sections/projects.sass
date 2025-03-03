@@ -77,7 +77,15 @@ article.post .post-categories,
                 .project-content
                     margin-right: offset(2)
                     max-width: columns(8)
+
 .projects--list
+    li
+        padding-bottom: 0
+        &:not(:last-child)
+            border: none
+        + li
+            padding-top: 0
+            margin-top: $spacing-5
     @include media-breakpoint-down(desktop)
         > li
             &:not(:first-child)
