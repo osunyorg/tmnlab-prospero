@@ -69,11 +69,14 @@ article.post .post-categories,
             @include media-breakpoint-up(desktop)
                 flex-direction: row
                 gap: var(--column-width)
+            @include in-page-without-sidebar
                 .media
                     width: calc(#{columns(3)} - var(--column-width))
-            @include in-page-without-sidebar
                 .project-title
                     @include h4
+                .project-content
+                    max-width: columns(8)
+                    margin-right: offset(2)
 .projects--list
     @include media-breakpoint-down(desktop)
         > li
