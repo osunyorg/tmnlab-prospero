@@ -4,7 +4,11 @@
             &-title a
                 @include h6
             .media
-                border: 2px solid transparent
+                border:
+                    color: transparent
+                    style: solid 
+                    width: 2px 
+                transition: 0.2s ease
             &:hover
                 .media
                     border-color: var(--color-text)
