@@ -48,6 +48,11 @@ header#document-header
             .container
                 gap: var(--column-width)
                 align-items: flex-end
+            .nav-level-1 
+                a.active,
+                a:hover
+                    text-decoration: underline
+                    text-decoration-thickness: 2px
         .dropdown-menu-heading
             position: relative
             @include media-breakpoint-up(desktop)
@@ -73,6 +78,13 @@ header#document-header
             @include media-breakpoint-up(desktop)
                 > li.has-children > a
                     display: none
+                .nav-level-3
+                    padding-top: 0
+                    li
+                        &:first-child
+                            margin-top: 0
+                        + li 
+                            margin-top: space(4)
             @include media-breakpoint-down(desktop)
                 li + li,
                 ul

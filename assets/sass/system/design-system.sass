@@ -127,10 +127,18 @@ body:not(.page__home)
             .block-title::after
                 transform: translateX(#{pxToRem(10)})
 
+// Table of content | TOC
 @include media-breakpoint-down(desktop)
     .toc-cta-title
         span
             text-align: left
+@include media-breakpoint-up(desktop)
+    .toc
+        li a
+            &.active,
+            &:hover
+                text-decoration: underline
+                text-decoration-thickness: 2px
 // Large screens
 @include media-breakpoint-up(xxl)
     body:not(.full-width)
