@@ -58,6 +58,7 @@ header#document-header
                     @include body-text
             .dropdown-menu-summary
                 @include body-text
+                margin-top: $spacing-4
         .nav-level-2
             > li:first-child
                 a
@@ -83,30 +84,35 @@ header#document-header
                         font-weight: 500
                         padding: $btn-padding
                         text-align: center
-                    // "rubriques"
-                    &:nth-child(2) > a
-                        border: 2px solid var(--color-text)
             @include media-breakpoint-up(desktop)
                 flex: 1
                 margin-left: offset(1)
         .nav-level-2,
         .nav-level-3
-            > li a
-                @include h6
+            > li 
+                a
+                    @include h6
+                    @include icon(arrow-right-line, after)
+                    @include hover-translate-icon
+                    &, &:hover
+                        text-decoration: none
         // in desktop : display black button under the "fiches" summary
         @include media-breakpoint-up(desktop)
             .dropdown-menu > .container
                 position: relative
-                padding-bottom: space(26)
+                padding-bottom: space(30)
         @include media-breakpoint-down(desktop)
-            .nav-level-3
-                a
-                    @include icon(arrow-right-line, after)
-                li:nth-child(1)
-                    background: $site-blue
-                li:nth-child(2)
-                    background: $site-purple
-                li:nth-child(3)
-                    background: $site-pink
-                li:nth-child(4)
-                    background: $site-orange
+            .nav-level-1 > li:first-child
+                // "rubriques"
+                .nav-level-2 li:nth-child(2) 
+                    > a
+                        border: 2px solid var(--color-text)
+                .nav-level-3
+                    li:nth-child(1)
+                        background: $site-blue
+                    li:nth-child(2)
+                        background: $site-purple
+                    li:nth-child(3)
+                        background: $site-pink
+                    li:nth-child(4)
+                        background: $site-orange
