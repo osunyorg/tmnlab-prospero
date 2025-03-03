@@ -37,7 +37,9 @@
         @include meta
         margin-top: $spacing-4
         p
-            margin-bottom: $spacing-3
+            margin-bottom: space(8)
+            &:not(a)
+                color: var(--color-text-alt)
         .credits-logo
             display: flex
             flex-wrap: wrap

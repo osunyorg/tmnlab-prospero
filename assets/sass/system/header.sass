@@ -101,13 +101,15 @@ header#document-header
                 margin-left: offset(1)
         .nav-level-2,
         .nav-level-3
-            > li 
+            > li
                 a
                     @include h6
-                    @include icon(arrow-right-line, after)
-                    @include hover-translate-icon
-                    &, &:hover
-                        text-decoration: none
+                &:not(:first-child)
+                    a
+                        @include icon(arrow-right-line, after)
+                        @include hover-translate-icon
+                        &, &:hover
+                            text-decoration: none
         // in desktop : display black button under the "fiches" summary
         @include media-breakpoint-up(desktop)
             .dropdown-menu > .container
@@ -116,9 +118,12 @@ header#document-header
         @include media-breakpoint-down(desktop)
             .nav-level-1 > li:first-child
                 // "rubriques"
-                .nav-level-2 li:nth-child(2) 
-                    > a
-                        border: 2px solid var(--color-text)
+                .nav-level-2 
+                    li:nth-child(2) 
+                        > a
+                            border: 2px solid var(--color-text)
+                    li:first-child a
+                        @include icon(arrow-right-line, after)
                 .nav-level-3
                     li:nth-child(1)
                         background: $site-blue
