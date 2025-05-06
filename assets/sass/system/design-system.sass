@@ -74,21 +74,32 @@ footer#document-footer,
 // footer
 footer#document-footer
     .footer-logo
-        > p
-            @include small
-        .logo
+        div + div
+            align-items: flex-start
             display: flex
-            gap: $spacing-3
+            gap: space(8)
+            position: relative
+        p
+            @include small
         @include media-breakpoint-up(desktop)
             display: flex
             justify-content: space-between
             width: 100%
-            > p
-                @include meta
-            .logo p
-                max-width: columns(4)
+            div + div::before
+                content: ''
+                height: 100%
+                width: 1px
+                position: absolute
+                left: -#{space(8)}
+                background: var(--color-border)
+            .logo 
+                display: flex
+                gap: space(16)
+                p
+                    width: columns(3)
         @include media-breakpoint-down(desktop)
-            > p
+            > p,
+            .logo div + div
                 margin-top: space(10)
             .logo p
                 flex: 1
