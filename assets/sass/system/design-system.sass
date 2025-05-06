@@ -75,13 +75,14 @@ footer#document-footer,
 footer#document-footer
     .footer-logo
         .logo 
-            > a::after
-                content: none !important
-            div
-                align-items: flex-start
-                display: flex
-                gap: space(8)
-                position: relative
+            > a
+                &::after
+                    content: none !important
+                + a
+                    align-items: flex-start
+                    display: flex
+                    gap: space(8)
+                    position: relative
         p
             @include small
         @include media-breakpoint-up(desktop)
@@ -102,7 +103,7 @@ footer#document-footer
                     width: columns(3)
         @include media-breakpoint-down(desktop)
             > p,
-            .logo > * + *
+            .logo > a + a
                 margin-top: space(10)
             .logo p
                 flex: 1

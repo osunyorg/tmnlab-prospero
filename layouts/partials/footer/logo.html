@@ -2,9 +2,10 @@
   <a href="https://www.prospero-theatre.eu/" title="{{ i18n "commons.link.blank_aria" (dict "Title" "European Theatre Project Prospero: extended theatre") }}" target="_blank">
     <img src="/assets/images/prospero.svg" alt="">
   </a>
-  <div>
+  {{ $europe_logo_title := i18n "commons.footer.links.europe" }}
+  <a href="https://culture.ec.europa.eu/fr/creative-europe/about-the-creative-europe-programme" title="{{ i18n "commons.link.blank_aria" (dict "Title" $europe_logo_title) }}" target="_blank">
     <img src="/assets/images/footer-eu.svg" alt="">
     <p>{{ i18n "footer.credits.europe" }}</p>
-  </div>
+  </a>
 </div>
 <p>{{ i18n "footer.credits.tmnlab" }}</p>
