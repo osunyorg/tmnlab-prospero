@@ -41,3 +41,6 @@ params:
       categories:
         large:
           desktop: 864
+  home:
+    head:
+      title: site
