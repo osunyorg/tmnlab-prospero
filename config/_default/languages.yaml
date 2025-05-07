@@ -36,39 +36,3 @@ fr:
     researcher: researchers
     teacher: teachers
     volume: volumes
-en:
-  title: >-
-    Audience data & performing arts
-  contentDir: content/en
-  languageCode: en
-  languageName: English
-  buildFuture: true
-  params:
-    contact_details:
-
-  permalinks:
-    pages_categories: /:slug/
-    projects: /projects/:year-:slug/
-    projects_categories: /projects/:slug/
-    posts: /posts/:year-:month-:day-:slug/
-    posts_categories: /posts/:slug/
-    organizations: /a-propos/organizations/:slug/
-    organizations_categories: /a-propos/organizations/categories/:slug/
-    persons: /a-propos/team/:slug/
-    persons_categories: /a-propos/team/categories/:slug/
-    authors: /a-propos/team/:slug/posts/
-  taxonomies:
-    administrator: administrators
-    author: authors
-    diploma: diplomas
-    events_category: events_categories
-    location: locations
-    organizations_category: organizations_categories
-    pages_category: pages_categories
-    persons_category: persons_categories
-    posts_category: posts_categories
-    programs_category: programs_categories
-    projects_category: projects_categories
-    researcher: researchers
-    teacher: teachers
-    volume: volumes
