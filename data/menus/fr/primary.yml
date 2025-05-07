@@ -2,12 +2,12 @@
 title: Menu principal
 items:
 - title: Fiches
-  target: "/fr/fiches/"
+  target: "/fiches/"
   kind: page
   new_tab: false
   children:
   - title: Voir toutes les fiches
-    target: "/fr/fiches/"
+    target: "/fiches/"
     kind: page
     new_tab: false
     children: []
@@ -41,33 +41,33 @@ items:
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Annexes
-  target: "/fr/annexes/"
+  target: "/annexes/"
   kind: page
   new_tab: false
   children:
   - title: Explorez plus loin
-    target: "/fr/annexes/"
+    target: "/annexes/"
     kind: page
     new_tab: false
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Témoignages
-    target: "/fr/annexes/temoignages/"
+    target: "/annexes/temoignages/"
     kind: category
     new_tab: false
     children: []
     path: "/posts_categories/temoignages"
     file: content/fr/posts_categories/temoignages/_index.html
   - title: Études de cas
-    target: "/fr/annexes/etudes-de-cas/"
+    target: "/annexes/etudes-de-cas/"
     kind: category
     new_tab: false
     children: []
     path: "/posts_categories/etudes-de-cas"
     file: content/fr/posts_categories/etudes-de-cas/_index.html
   - title: Publications
-    target: "/fr/annexes/publications/"
+    target: "/annexes/publications/"
     kind: category
     new_tab: false
     children: []
@@ -76,33 +76,33 @@ items:
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: À propos
-  target: "/fr/a-propos/"
+  target: "/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir le projet
-    target: "/fr/a-propos/"
+    target: "/a-propos/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/a-propos"
     file: content/fr/pages/a-propos/_index.html
   - title: Positionnement
-    target: "/fr/a-propos/positionnement/"
+    target: "/a-propos/positionnement/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/a-propos/positionnement"
     file: content/fr/pages/a-propos/positionnement/_index.html
   - title: Équipe
-    target: "/fr/a-propos/equipe/"
+    target: "/a-propos/equipe/"
     kind: page
     new_tab: false
     children: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: Partenaires
-    target: "/fr/a-propos/partenaires/"
+    target: "/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
