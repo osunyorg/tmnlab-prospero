@@ -1,0 +1,32 @@
+---
+title: Legal
+items:
+- title: Legal terms
+  target: "/en/legal-terms/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/legal-terms"
+  file: content/en/pages/legal-terms/_index.html
+- title: Privacy policy
+  target: "/en/privacy-policy/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/privacy-policy"
+  file: content/en/pages/privacy-policy/_index.html
+- title: Accessibility
+  target: "/en/accessibility/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/accessibility"
+  file: content/en/pages/accessibility/_index.html
+- title: Sitemap
+  target: "/en/sitemap/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/sitemap"
+  file: content/en/pages/sitemap/_index.html
+

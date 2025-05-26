@@ -9,7 +9,7 @@ osuny:
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 ## CACHE
 deployment:
