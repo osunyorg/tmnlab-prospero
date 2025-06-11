@@ -2,19 +2,40 @@
 title: Main menu
 items:
 - title: Guidelines
-  target: "/en/projects/"
+  target: "/en/items/"
   kind: page
   new_tab: false
   children: []
   path: "/projects"
   file: content/en/projects/_index.html
 - title: More ressources
-  target: "/en/posts/"
+  target: "/en/appendices/"
   kind: page
   new_tab: false
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
+- title: About
+  target: "/en/a-propos/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Team
+    target: "/en/a-propos/team/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/persons"
+    file: content/en/persons/_index.html
+  - title: Organizations
+    target: "/en/a-propos/organizations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/en/organizations/_index.html
+  path: "/pages/a-propos"
+  file: content/en/pages/a-propos/_index.html
 - title: Agenda
   target: "/en/agenda/"
   kind: page

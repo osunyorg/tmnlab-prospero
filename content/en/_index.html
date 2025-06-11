@@ -59,6 +59,7 @@ image:
 children:
   - "projects/_index.html"
   - "posts/_index.html"
+  - "pages/a-propos/_index.html"
   - "events/_index.html"
 meta_description: >-
   
@@ -89,6 +90,7 @@ contents:
     ranks:
       base: 2
       self: 2
+      children: 3
     html_class: "block-class-main-rubrics block-class-stretched-link-from-content"
     top:
       active: true
@@ -162,6 +164,7 @@ contents:
       
     ranks:
       base: 2
+      children: 2
     top:
       active: false
     data:
@@ -176,8 +179,12 @@ contents:
         year: false
 
       projects:
+        - permalink: "/en/projects/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees/"
+          path: "/projects/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees"
+          slug: "les-pratiques-culturelles-de-plus-en-plus-numerisees"
+          file: "content/en/projects/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees.html"
 
-      quantity: 0
+      quantity: 1
 
   - kind: block
     template: categories
@@ -268,10 +275,23 @@ contents:
       
     ranks:
       base: 2
+      children: 2
     html_class: "block-class-background-alt"
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          About
+        heading: 2
+        link: "/en/a-propos/"
+      description: >-
+        <p> The ten partners involved in the multi-year cultural cooperation project <strong>PROSPERO - Extended Theatre</strong> seek to make an artistic, cultural, and political statement through an ambitious theatrical initiative that contributes to the shaping of a shared artistic and cultural Europe.<br> Among their goals: to broaden the dissemination of theatrical works, both in venues and across digital spaces, in order to reach new audiences.<br> This platform is designed to support that ambition.  </p>
     data:
+      page:
+        permalink: "/en/a-propos/"
+        path: "/pages/a-propos"
+        slug: "a-propos"
+        file: "content/en/pages/a-propos/_index.html"
       options:
         image: false
         main_summary: true
@@ -279,8 +299,16 @@ contents:
 
       layout: list
       pages:
+        - permalink: "/en/a-propos/team/"
+          path: "/persons"
+          slug: "team"
+          file: "content/en/persons/_index.html"
+        - permalink: "/en/a-propos/organizations/"
+          path: "/organizations"
+          slug: "organizations"
+          file: "content/en/organizations/_index.html"
 
-      quantity: 0
+      quantity: 2
 
 
   - kind: block
