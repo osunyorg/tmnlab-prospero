@@ -24,7 +24,8 @@ params:
     default_image: false
     date_format: ":date_long"
     index:
-      taxonomies: false
+      taxonomies: 
+        display: false
   projects:
     index:
       layout: list
