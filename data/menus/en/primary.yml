@@ -36,11 +36,4 @@ items:
     file: content/en/organizations/_index.html
   path: "/pages/a-propos"
   file: content/en/pages/a-propos/_index.html
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/events"
-  file: content/en/events/_index.html
 
