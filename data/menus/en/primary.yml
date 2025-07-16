@@ -59,7 +59,7 @@ items:
     children: []
     path: "/persons"
     file: content/en/persons/_index.html
-  - title: Organizations
+  - title: Partners
     target: "/en/a-propos/organizations/"
     kind: page
     new_tab: false
