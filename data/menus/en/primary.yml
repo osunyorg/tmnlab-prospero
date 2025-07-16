@@ -88,12 +88,12 @@ items:
     path: "/pages/a-propos"
     file: content/en/pages/a-propos/_index.html
   - title: Introduction & Strategic Positioning
-    target: "/en/a-propos/positionnement/"
+    target: "/en/a-propos/positioning/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/a-propos/positionnement"
-    file: content/en/pages/a-propos/positionnement/_index.html
+    path: "/pages/a-propos/positioning"
+    file: content/en/pages/a-propos/positioning/_index.html
   - title: Team
     target: "/en/a-propos/team/"
     kind: page
