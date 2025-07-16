@@ -40,7 +40,7 @@ items:
       children: []
   path: "/projects"
   file: content/en/projects/_index.html
-- title: More ressources
+- title: Appendices
   target: "/en/appendices/"
   kind: page
   new_tab: false
@@ -60,7 +60,7 @@ items:
     path: "/persons"
     file: content/en/persons/_index.html
   - title: Partners
-    target: "/en/a-propos/organizations/"
+    target: "/en/a-propos/partners/"
     kind: page
     new_tab: false
     children: []
