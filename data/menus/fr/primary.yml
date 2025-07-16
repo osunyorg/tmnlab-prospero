@@ -45,7 +45,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Explorez plus loin
+  - title: Explorer plus loin
     target: "/fr/annexes/"
     kind: page
     new_tab: false

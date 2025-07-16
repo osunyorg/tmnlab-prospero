@@ -44,7 +44,35 @@ items:
   target: "/en/appendices/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Explore further
+    target: "/en/appendices/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/posts"
+    file: content/en/posts/_index.html
+  - title: Testimonials
+    target: "/en/appendices/testimonials/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/testimonials"
+    file: content/en/posts_categories/testimonials/_index.html
+  - title: Case Studies
+    target: "/en/appendices/case-studies/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/case-studies"
+    file: content/en/posts_categories/case-studies/_index.html
+  - title: Publications
+    target: "/en/appendices/publications/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/publications"
+    file: content/en/posts_categories/publications/_index.html
   path: "/posts"
   file: content/en/posts/_index.html
 - title: About
@@ -52,6 +80,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Discover the project
+    target: "/en/a-propos/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/a-propos"
+    file: content/en/pages/a-propos/_index.html
   - title: Team
     target: "/en/a-propos/team/"
     kind: page
