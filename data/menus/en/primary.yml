@@ -2,12 +2,12 @@
 title: Main menu
 items:
 - title: Guidelines
-  target: "/en/items/"
+  target: "/en/guidelines/"
   kind: page
   new_tab: false
   children:
   - title: See all items
-    target: "/en/items/"
+    target: "/en/guidelines/"
     kind: page
     new_tab: false
     children: []
@@ -87,6 +87,13 @@ items:
     children: []
     path: "/pages/a-propos"
     file: content/en/pages/a-propos/_index.html
+  - title: Introduction & Strategic Positioning
+    target: "/en/a-propos/positionnement/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/a-propos/positionnement"
+    file: content/en/pages/a-propos/positionnement/_index.html
   - title: Team
     target: "/en/a-propos/team/"
     kind: page
