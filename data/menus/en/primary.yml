@@ -5,7 +5,39 @@ items:
   target: "/en/items/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: See all items
+    target: "/en/items/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/projects"
+    file: content/en/projects/_index.html
+  - title: Sections
+    target: "/en/items/sections"
+    kind: url
+    new_tab: false
+    children:
+    - title: Understanding the Context
+      target: "/en/items/sections/understanding-the-context"
+      kind: url
+      new_tab: false
+      children: []
+    - title: Getting Started
+      target: "/en/items/sections/getting-started"
+      kind: url
+      new_tab: false
+      children: []
+    - title: Mastering the Techniques
+      target: "/en/items/sections/mastering-the-techniques"
+      kind: url
+      new_tab: false
+      children: []
+    - title: Driving the Strategy
+      target: "/en/items/sections/driving-the-strategy"
+      kind: url
+      new_tab: false
+      children: []
   path: "/projects"
   file: content/en/projects/_index.html
 - title: More ressources
