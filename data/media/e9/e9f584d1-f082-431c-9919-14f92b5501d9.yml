@@ -1,7 +1,10 @@
 ---
 name: logo-odeon-rose.png
 size: 74772
-format: square
+width: 2560
+height: 1280
+ratio: 2.0
+format: landscape
 url: https://tmnlab.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImU5ZjU4NGQxLWYwODItNDMxYy05OTE5LTE0ZjkyYjU1MDFkOSIsInB1ciI6ImJsb2JfaWQifX0=--a99f2ed7c7782271ae9ff92ac1327cff723534ad/logo-odeon-rose.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/q67w0ex8y5rukam9cyztatclmh0l
 download_url: https://tmnlab.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImU5ZjU4NGQxLWYwODItNDMxYy05OTE5LTE0ZjkyYjU1MDFkOSIsInB1ciI6ImJsb2JfaWQifX0=--a99f2ed7c7782271ae9ff92ac1327cff723534ad

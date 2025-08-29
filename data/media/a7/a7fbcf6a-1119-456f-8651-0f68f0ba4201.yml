@@ -1,7 +1,10 @@
 ---
 name: ERT-Logo-Web.png
 size: 9738
-format: square
+width: 747
+height: 204
+ratio: 3.661764705882353
+format: landscape
 url: https://tmnlab.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImE3ZmJjZjZhLTExMTktNDU2Zi04NjUxLTBmNjhmMGJhNDIwMSIsInB1ciI6ImJsb2JfaWQifX0=--597c62dc820d080027b8230c704b6dc0cbc33830/ERT-Logo-Web.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/d7ixgs0shjh4cy9f8whqtazba838
 download_url: https://tmnlab.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImE3ZmJjZjZhLTExMTktNDU2Zi04NjUxLTBmNjhmMGJhNDIwMSIsInB1ciI6ImJsb2JfaWQifX0=--597c62dc820d080027b8230c704b6dc0cbc33830

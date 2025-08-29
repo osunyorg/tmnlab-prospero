@@ -1,7 +1,10 @@
 ---
 name: saoluiz_logo.png
 size: 4712
-format: square
+width: 291
+height: 300
+ratio: 0.97
+format: portrait
 url: https://tmnlab.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjMxMzFjN2U0LTg4NTctNGI3NC05NjcyLWMwYmQ0NmFlMmY5YSIsInB1ciI6ImJsb2JfaWQifX0=--4c4b491322d6371b061c9c9bb867cc90f58ae4e0/saoluiz_logo.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/8hbvz0dmt45f4yy4x3votrqircqa
 download_url: https://tmnlab.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjMxMzFjN2U0LTg4NTctNGI3NC05NjcyLWMwYmQ0NmFlMmY5YSIsInB1ciI6ImJsb2JfaWQifX0=--4c4b491322d6371b061c9c9bb867cc90f58ae4e0
