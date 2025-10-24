@@ -126,6 +126,8 @@ article.post .post-categories,
 
 // page taxonomie "rubriques" avec les 4 blocs colorés
 .page-taxonomy-rubrics
+    .hero
+        margin-bottom: 0
     .blocks
         .top
             a
@@ -133,10 +135,11 @@ article.post .post-categories,
                 @include hover-translate-icon(after)
         .block.block-projects
             margin-bottom: 0
-            padding-top: $spacing-5
             padding-bottom: $spacing-5
+            padding-top: $spacing-5 !important
             @include media-breakpoint-up(desktop)
-                padding-top: $spacing-6
+                padding-bottom: $spacing-6
+                padding-top: $spacing-6 !important
             .project:last-child
                 .project-title
                     border: none
