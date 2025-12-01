@@ -72,11 +72,11 @@ article.post .post-categories,
             @include in-page-without-sidebar
                 .media
                     width: calc(#{columns(3)} - var(--column-width))
-                .project-title
-                    @include h4
                 .project-content
                     margin-right: offset(2)
                     max-width: columns(8)
+                    .project-title
+                        @include h4
 
 .projects--list
     li
