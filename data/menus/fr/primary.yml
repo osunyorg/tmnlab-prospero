@@ -2,112 +2,164 @@
 title: Menu principal
 items:
 - title: Fiches
+  slug: fiches
   target: "/fr/fiches/"
   kind: page
   new_tab: false
   children:
   - title: Voir toutes les fiches
+    slug: voir-toutes-les-fiches
     target: "/fr/fiches/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Rubriques
+    slug: rubriques
     target: "/fr/fiches/rubriques/"
     kind: url
     new_tab: false
     children:
     - title: Comprendre le contexte
+      slug: comprendre-le-contexte
       target: "/fr/ressources/comprendre-le-contexte/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Découvrir les bases
+      slug: decouvrir-les-bases
       target: "/fr/ressources/decouvrir-les-bases/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Maîtriser les techniques
+      slug: maitriser-les-techniques
       target: "/fr/ressources/maitriser-les-techniques/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Piloter la stratégie
+      slug: piloter-la-strategie
       target: "/fr/ressources/piloter-la-strategie/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/fr/ressources/comprendre-le-contexte/"
+    - "/fr/ressources/decouvrir-les-bases/"
+    - "/fr/ressources/maitriser-les-techniques/"
+    - "/fr/ressources/piloter-la-strategie/"
+  descendants_targets:
+  - "/fr/fiches/"
+  - "/fr/fiches/rubriques/"
+  - "/fr/ressources/comprendre-le-contexte/"
+  - "/fr/ressources/decouvrir-les-bases/"
+  - "/fr/ressources/maitriser-les-techniques/"
+  - "/fr/ressources/piloter-la-strategie/"
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Annexes
+  slug: annexes
   target: "/fr/annexes/"
   kind: page
   new_tab: false
   children:
   - title: Explorer plus loin
+    slug: explorer-plus-loin
     target: "/fr/annexes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Témoignages
+    slug: temoignages
     target: "/fr/annexes/temoignages/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/temoignages"
     file: content/fr/posts_categories/temoignages/_index.html
   - title: Études de cas
+    slug: etudes-de-cas
     target: "/fr/annexes/etudes-de-cas/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/etudes-de-cas"
     file: content/fr/posts_categories/etudes-de-cas/_index.html
   - title: Publications
+    slug: publications
     target: "/fr/annexes/publications/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/publications"
     file: content/fr/posts_categories/publications/_index.html
+  descendants_targets:
+  - "/fr/annexes/"
+  - "/fr/annexes/etudes-de-cas/"
+  - "/fr/annexes/publications/"
+  - "/fr/annexes/temoignages/"
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: À propos
+  slug: a-propos
   target: "/fr/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Découvrir le projet
+    slug: decouvrir-le-projet
     target: "/fr/a-propos/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos"
     file: content/fr/pages/a-propos/_index.html
   - title: Positionnement
+    slug: positionnement
     target: "/fr/a-propos/positionnement/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/positionnement"
     file: content/fr/pages/a-propos/positionnement/_index.html
   - title: Équipe
+    slug: equipe
     target: "/fr/a-propos/equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/fr/persons/_index.html
   - title: Partenaires
+    slug: partenaires
     target: "/fr/a-propos/partenaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
+  descendants_targets:
+  - "/fr/a-propos/"
+  - "/fr/a-propos/equipe/"
+  - "/fr/a-propos/partenaires/"
+  - "/fr/a-propos/positionnement/"
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 

@@ -2,112 +2,164 @@
 title: Main menu
 items:
 - title: Guidelines
+  slug: guidelines
   target: "/en/guidelines/"
   kind: page
   new_tab: false
   children:
   - title: See all items
+    slug: see-all-items
     target: "/en/guidelines/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/projects"
     file: content/en/projects/_index.html
   - title: Sections
+    slug: sections
     target: "/en/items/sections"
     kind: url
     new_tab: false
     children:
     - title: Understanding the Context
+      slug: understanding-the-context
       target: "/en/items/sections/understanding-the-context"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Getting Started
+      slug: getting-started
       target: "/en/items/sections/getting-started"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Mastering the Techniques
+      slug: mastering-the-techniques
       target: "/en/items/sections/mastering-the-techniques"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Driving the Strategy
+      slug: driving-the-strategy
       target: "/en/items/sections/driving-the-strategy"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/en/items/sections/driving-the-strategy"
+    - "/en/items/sections/getting-started"
+    - "/en/items/sections/mastering-the-techniques"
+    - "/en/items/sections/understanding-the-context"
+  descendants_targets:
+  - "/en/guidelines/"
+  - "/en/items/sections"
+  - "/en/items/sections/driving-the-strategy"
+  - "/en/items/sections/getting-started"
+  - "/en/items/sections/mastering-the-techniques"
+  - "/en/items/sections/understanding-the-context"
   path: "/projects"
   file: content/en/projects/_index.html
 - title: Appendices
+  slug: appendices
   target: "/en/appendices/"
   kind: page
   new_tab: false
   children:
   - title: Explore further
+    slug: explore-further
     target: "/en/appendices/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/en/posts/_index.html
   - title: Testimonials
+    slug: testimonials
     target: "/en/appendices/testimonials/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/testimonials"
     file: content/en/posts_categories/testimonials/_index.html
   - title: Case Studies
+    slug: case-studies
     target: "/en/appendices/case-studies/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/case-studies"
     file: content/en/posts_categories/case-studies/_index.html
   - title: Publications
+    slug: publications
     target: "/en/appendices/publications/"
     kind: category
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts_categories/publications"
     file: content/en/posts_categories/publications/_index.html
+  descendants_targets:
+  - "/en/appendices/"
+  - "/en/appendices/case-studies/"
+  - "/en/appendices/publications/"
+  - "/en/appendices/testimonials/"
   path: "/posts"
   file: content/en/posts/_index.html
 - title: About
+  slug: about
   target: "/en/a-propos/"
   kind: page
   new_tab: false
   children:
   - title: Discover the project
+    slug: discover-the-project
     target: "/en/a-propos/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos"
     file: content/en/pages/a-propos/_index.html
   - title: Introduction & Strategic Positioning
+    slug: introduction-strategic-positioning
     target: "/en/a-propos/positioning/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/a-propos/positioning"
     file: content/en/pages/a-propos/positioning/_index.html
   - title: Team
+    slug: team
     target: "/en/a-propos/team/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/persons"
     file: content/en/persons/_index.html
   - title: Partners
+    slug: partners
     target: "/en/a-propos/partners/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/organizations"
     file: content/en/organizations/_index.html
+  descendants_targets:
+  - "/en/a-propos/"
+  - "/en/a-propos/partners/"
+  - "/en/a-propos/positioning/"
+  - "/en/a-propos/team/"
   path: "/pages/a-propos"
   file: content/en/pages/a-propos/_index.html
 

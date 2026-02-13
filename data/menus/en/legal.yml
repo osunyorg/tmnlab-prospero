@@ -2,31 +2,39 @@
 title: Legal
 items:
 - title: Legal terms
+  slug: legal-terms
   target: "/en/legal-terms/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/legal-terms"
   file: content/en/pages/legal-terms/_index.html
 - title: Privacy policy
+  slug: privacy-policy
   target: "/en/privacy-policy/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/privacy-policy"
   file: content/en/pages/privacy-policy/_index.html
 - title: Accessibility
+  slug: accessibility
   target: "/en/accessibility/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/accessibility"
   file: content/en/pages/accessibility/_index.html
 - title: Sitemap
+  slug: sitemap
   target: "/en/sitemap/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/sitemap"
   file: content/en/pages/sitemap/_index.html
 
