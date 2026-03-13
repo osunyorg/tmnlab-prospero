@@ -123,23 +123,6 @@ body:not(.page__home)
     main
         padding-bottom: 0
 
-// fake main page with link and summary
-.block-class-stretched-link-from-content
-    .top
-        position: relative
-        .block-title
-            @include icon(arrow-right-line, after)
-                display: inline-block
-                margin-left: space()
-                transition: 0.55s $arrow-ease-transition
-        .description
-            a
-                @include stretched-link
-                text-decoration: none
-        &:hover
-            .block-title::after
-                transform: translateX(#{pxToRem(10)})
-
 // Title
 .block-title.heading
     margin-bottom: $spacing-4

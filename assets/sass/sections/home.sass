@@ -1,0 +1,16 @@
+.page__home
+    .block-class-stretched-link-from-content
+        .top
+            position: relative
+            .block-title
+                @include icon(arrow-right-line, after)
+                    display: inline-block
+                    margin-left: space()
+                    transition: 0.55s $arrow-ease-transition
+            .description
+                a
+                    @include stretched-link
+                    text-decoration: none
+            &:hover
+                .block-title::after
+                    transform: translateX(#{pxToRem(10)})
