@@ -7,6 +7,10 @@ osuny:
   website:
     id: e36a47d7-87d3-484b-9f14-1de04a9cf0c2
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: ""
 
 ## LANGUAGE
 defaultContentLanguage: fr
