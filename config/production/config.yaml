@@ -10,7 +10,7 @@ osuny:
 ## PARAMS
 params:
   _merge: deep
-  plausible: ""
+  plausible: "audiencedata.tmnlab.com"
 
 ## LANGUAGE
 defaultContentLanguage: fr
