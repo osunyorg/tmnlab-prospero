@@ -115,31 +115,31 @@ items:
   file: content/en/posts/_index.html
 - title: About
   slug: about
-  target: "/en/a-propos/"
+  target: "/en/about/"
   kind: page
   new_tab: false
   children:
   - title: Discover the project
     slug: discover-the-project
-    target: "/en/a-propos/"
+    target: "/en/about/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/a-propos"
-    file: content/en/pages/a-propos/_index.html
+    path: "/pages/about"
+    file: content/en/pages/about/_index.html
   - title: Introduction & Strategic Positioning
     slug: introduction-strategic-positioning
-    target: "/en/a-propos/positioning/"
+    target: "/en/about/positioning/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/a-propos/positioning"
-    file: content/en/pages/a-propos/positioning/_index.html
+    path: "/pages/about/positioning"
+    file: content/en/pages/about/positioning/_index.html
   - title: Team
     slug: team
-    target: "/en/a-propos/team/"
+    target: "/en/about/team/"
     kind: page
     new_tab: false
     children: []
@@ -148,7 +148,7 @@ items:
     file: content/en/persons/_index.html
   - title: Partners
     slug: partners
-    target: "/en/a-propos/partners/"
+    target: "/en/about/partners/"
     kind: page
     new_tab: false
     children: []
@@ -156,10 +156,10 @@ items:
     path: "/organizations"
     file: content/en/organizations/_index.html
   descendants_targets:
-  - "/en/a-propos/"
-  - "/en/a-propos/partners/"
-  - "/en/a-propos/positioning/"
-  - "/en/a-propos/team/"
-  path: "/pages/a-propos"
-  file: content/en/pages/a-propos/_index.html
+  - "/en/about/"
+  - "/en/about/partners/"
+  - "/en/about/positioning/"
+  - "/en/about/team/"
+  path: "/pages/about"
+  file: content/en/pages/about/_index.html
 
