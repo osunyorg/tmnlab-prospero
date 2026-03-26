@@ -9,7 +9,7 @@ hero:
 footer:
   credits:
     europe: Co-financed by the European Union's Creative Europe Programme
-    tmnlab: Copyright © 2024 Communauté TMNlab
+    tmnlab: Copyright © {{ . }} Communauté TMNlab
 rubrics:
   title: Rubrics
 projects:
