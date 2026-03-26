@@ -6,7 +6,7 @@
         .dropdown-share
             position: relative
     &:not(.full-width)
-        .project-sidebar,
+        .section-sidebar,
         .post-sidebar
             .taxonomies-single li.terms
                 .taxonomy-children
@@ -14,11 +14,9 @@
                     flex-wrap: wrap
                     justify-content: flex-end
                     flex: 1
-                    gap: space(3) space(2)
+                    gap: space(2)
                     li
-                        margin-left: 0
-                        + li
-                            margin-top: 0
+                        margin: 0 !important
 
 .projects__page
     .document-content
