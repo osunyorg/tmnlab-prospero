@@ -68,16 +68,21 @@ header#document-header
             > li:first-child
                 a
                     @extend .button-accent
+
                     @include media-breakpoint-down(desktop)
                         @include body-text
                         width: 100%
+
                 @include media-breakpoint-up(desktop)
                     bottom: 0
                     left: var(--grid-gutter)
                     position: absolute
+
             @include media-breakpoint-up(desktop)
                 > li.has-children > a
                     display: none
+                > li + li 
+                    margin-top: $spacing-3
                 .nav-level-3
                     padding-top: 0
                     li
@@ -85,6 +90,7 @@ header#document-header
                             margin-top: 0
                         + li 
                             margin-top: $spacing-3
+
             @include media-breakpoint-down(desktop)
                 li + li,
                 ul
@@ -96,6 +102,7 @@ header#document-header
                         font-weight: 500
                         padding: $btn-padding
                         text-align: center
+
             @include media-breakpoint-up(desktop)
                 flex: 1
                 margin-left: offset(1)
