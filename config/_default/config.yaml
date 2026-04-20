@@ -1,6 +1,8 @@
 theme: osuny
 _merge: deep
 params:
+  debug:
+    productionUrl: https://audiencedata.tmnlab.com
   summary:
     position: hero
   search:
