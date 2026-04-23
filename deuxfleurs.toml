@@ -13,3 +13,1316 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/en/a-propos/"
+to = "/en/about/"
+
+[[redirects]]
+from = "/a-propos/equipe/clement-coustenoble/"
+to = "/fr/a-propos/equipe/clement-coustenoble/"
+
+[[redirects]]
+from = "/fr/ressources/decouvrir-les-bases/"
+to = "/fr/fiches/rubriques/decouvrir-les-bases/"
+
+[[redirects]]
+from = "/annexes/"
+to = "/fr/annexes/"
+
+[[redirects]]
+from = "/fiches/mots-cles/seo-search-engine-optimization/"
+to = "/fr/fiches/mots-cles/seo-search-engine-optimization/"
+
+[[redirects]]
+from = "/fr/fiches/2024-quelles-sont-les-etapes-pour-piloter-le-deploiement-dun-outil-de-gestion-de-donnees/"
+to = "/fr/fiches/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/okr-methode-objectives-key-results/"
+to = "/fr/fiches/mots-cles/objectifs-et-indicateurs/"
+
+[[redirects]]
+from = "/annexes/2025-02-18-comment-je-suis-devenu-le-concierge-du-theatre/"
+to = "/fr/annexes/2025-02-18-comment-je-suis-devenu-le-concierge-du-theatre/"
+
+[[redirects]]
+from = "/fr/projets/comprendre-le-contexte/"
+to = "/fr/fiches/rubriques/comprendre-le-contexte/"
+
+[[redirects]]
+from = "/fiches/mots-cles/persona/"
+to = "/fr/fiches/mots-cles/persona/"
+
+[[redirects]]
+from = "/a-propos/"
+to = "/fr/a-propos/"
+
+[[redirects]]
+from = "/fiches/mots-cles/ad-exchange/"
+to = "/fr/fiches/mots-cles/ad-exchange/"
+
+[[redirects]]
+from = "/fr/ressources/2024-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+to = "/fr/fiches/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+
+[[redirects]]
+from = "/fiches/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+to = "/fr/fiches/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+
+[[redirects]]
+from = "/annexes/publications/"
+to = "/fr/annexes/publications/"
+
+[[redirects]]
+from = "/fiches/mots-cles/w3c-world-wide-web-consortium/"
+to = "/fr/fiches/mots-cles/w3c-world-wide-web-consortium/"
+
+[[redirects]]
+from = "/fiches/mots-cles/automatisation/"
+to = "/fr/fiches/mots-cles/automatisation/"
+
+[[redirects]]
+from = "/fr/fiches/interoperabilite/"
+to = "/fr/fiches/mots-cles/interoperabilite/"
+
+[[redirects]]
+from = "/fr/fiches/2025-4-04-piloter-un-projet-de-transformation-logiciel/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fr/fiches/2024-que-puis-je-attendre-dun-crm/"
+to = "/fr/fiches/2025-que-puis-je-attendre-dun-crm/"
+
+[[redirects]]
+from = "/en/items/2025-1-01-are-cultural-practices-becoming-increasingly-digitised/"
+to = "/en/guidelines/2025-1-01-are-cultural-practices-becoming-increasingly-digitised/"
+
+[[redirects]]
+from = "/fiches/mots-cles/decouvrabilite/"
+to = "/fr/fiches/mots-cles/decouvrabilite/"
+
+[[redirects]]
+from = "/fiches/mots-cles/data-visualisation/"
+to = "/fr/fiches/mots-cles/data-visualisation/"
+
+[[redirects]]
+from = "/en/a-propos/partners/theatre-de-liege-lead-partner-belgique/"
+to = "/en/about/partners/theatre-de-liege-lead-partner-belgique/"
+
+[[redirects]]
+from = "/fr/ressources/"
+to = "/fr/fiches/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-06-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+to = "/fr/fiches/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+
+[[redirects]]
+from = "/fr/fiches/2024-quelle-est-la-reglementation-applicable-aux-donnees/"
+to = "/fr/fiches/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+
+[[redirects]]
+from = "/fr/projets/piloter-la-strategie/"
+to = "/fr/fiches/rubriques/piloter-la-strategie/"
+
+[[redirects]]
+from = "/a-propos/equipe/anne-le-gall/annexes/"
+to = "/fr/a-propos/equipe/anne-le-gall/annexes/"
+
+[[redirects]]
+from = "/en/a-propos/team/chrystel-folcher-bouby/"
+to = "/en/about/team/chrystel-folcher-bouby/"
+
+[[redirects]]
+from = "/en/items/2025-mais-en-fait-quest-ce-quune-donnee/"
+to = "/en/guidelines/2025-mais-en-fait-quest-ce-quune-donnee/"
+
+[[redirects]]
+from = "/a-propos/equipe/"
+to = "/fr/a-propos/equipe/"
+
+[[redirects]]
+from = "/en/a-propos/positioning/"
+to = "/en/about/positioning/"
+
+[[redirects]]
+from = "/en/appendices/2025-07-11-comment-jai-decouvert-que-les-balletomanes-pouvaient-aussi-aimer-lopera/"
+to = "/en/appendices/2025-07-11-how-i-discovered-that-ballet-lovers-can-also-enjoy-opera/"
+
+[[redirects]]
+from = "/a-propos/equipe/lucie-bouchet/"
+to = "/fr/a-propos/equipe/lucie-bouchet/"
+
+[[redirects]]
+from = "/fr/fiches/2024-mais-en-fait-quest-ce-quune-donnee/"
+to = "/fr/fiches/2025-mais-en-fait-quest-ce-quune-donnee/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quelle-est-la-reglementation-applicable-aux-donnees/"
+to = "/fr/fiches/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+
+[[redirects]]
+from = "/en/items/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+to = "/en/guidelines/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+
+[[redirects]]
+from = "/fiches/2025-quelles-donnees-produisent-les-reseaux-sociaux/"
+to = "/fr/fiches/2025-quelles-donnees-produisent-les-reseaux-sociaux/"
+
+[[redirects]]
+from = "/fiches/mots-cles/dmp-data-management-platform/"
+to = "/fr/fiches/mots-cles/dmp-data-management-platform/"
+
+[[redirects]]
+from = "/en/items/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
+to = "/en/guidelines/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
+
+[[redirects]]
+from = "/en/a-propos/partners/teatros-del-canal-comunidad-de-madrid-espagne/"
+to = "/en/about/partners/teatros-del-canal-comunidad-de-madrid-espagne/"
+
+[[redirects]]
+from = "/fr/fiches/piloter-la-strategie/"
+to = "/fr/fiches/rubriques/piloter-la-strategie/"
+
+[[redirects]]
+from = "/fiches/mots-cles/ab-testing/"
+to = "/fr/fiches/mots-cles/ab-testing/"
+
+[[redirects]]
+from = "/fiches/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+to = "/fr/fiches/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+
+[[redirects]]
+from = "/en/a-propos/team/chrystel-bazin/"
+to = "/en/about/team/chrystel-bazin/"
+
+[[redirects]]
+from = "/fiches/mots-cles/opt-in-opt-out/"
+to = "/fr/fiches/mots-cles/opt-in-opt-out/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/crm/"
+to = "/fr/fiches/mots-cles/crm-grc/"
+
+[[redirects]]
+from = "/fiches/2025-demain-un-monde-sans-cookies/"
+to = "/fr/fiches/2025-demain-un-monde-sans-cookies/"
+
+[[redirects]]
+from = "/fiches/2025-envisager-lautomatisation-en-marketing-relationnel/"
+to = "/fr/fiches/2025-envisager-lautomatisation-en-marketing-relationnel/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/tunnels-dacquisition/"
+to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
+
+[[redirects]]
+from = "/en/items/2025-que-puis-je-attendre-dun-crm/"
+to = "/en/guidelines/2025-que-puis-je-attendre-dun-crm/"
+
+[[redirects]]
+from = "/en/items/2025-data-marketing-platform-customer-data-platform-jusquou-aller-dans-la-gestion-de-donnees/"
+to = "/en/guidelines/2025-data-marketing-platform-customer-data-platform-jusquou-aller-dans-la-gestion-de-donnees/"
+
+[[redirects]]
+from = "/annexes/2025-03-19-maximiser-limpact-du-marketing-digital-le-cas-du-pavilion-theatre/"
+to = "/fr/annexes/2025-03-19-maximiser-limpact-du-marketing-digital-le-cas-du-pavilion-theatre/"
+
+[[redirects]]
+from = "/fr/fiches/2025-4-04-piloter-un-projet-de-deploiement-de-logiciel/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fr/fiches/2024-quelle-place-pour-les-tableurs/"
+to = "/fr/fiches/2025-quelle-place-pour-les-tableurs/"
+
+[[redirects]]
+from = "/fiches/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
+to = "/fr/fiches/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
+
+[[redirects]]
+from = "/fiches/mots-cles/cdp-ou-customer-data-platform/"
+to = "/fr/fiches/mots-cles/cdp-ou-customer-data-platform/"
+
+[[redirects]]
+from = "/fr/equipe/equipe-editoriale/"
+to = "/fr/a-propos/equipe/equipe-editoriale/"
+
+[[redirects]]
+from = "/fiches/mots-cles/backlink/"
+to = "/fr/fiches/mots-cles/backlink/"
+
+[[redirects]]
+from = "/en/items/sections/understanding-the-context/"
+to = "/en/guidelines/sections/understanding-the-context/"
+
+[[redirects]]
+from = "/fiches/rubriques/"
+to = "/fr/fiches/rubriques/"
+
+[[redirects]]
+from = "/mentions-legales/"
+to = "/fr/mentions-legales/"
+
+[[redirects]]
+from = "/fiches/mots-cles/dpo-data-protection-officer/"
+to = "/fr/fiches/mots-cles/dpo-data-protection-officer/"
+
+[[redirects]]
+from = "/fr/projets/maitriser-les-techniques/"
+to = "/fr/fiches/rubriques/maitriser-les-techniques/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/donnee/"
+to = "/fr/fiches/mots-cles/donnee-data/"
+
+[[redirects]]
+from = "/en/a-propos/team/lucie-bouchet/"
+to = "/en/about/team/lucie-bouchet/"
+
+[[redirects]]
+from = "/en/a-propos/partners/"
+to = "/en/about/partners/"
+
+[[redirects]]
+from = "/fr/fiches/2025-comment-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/fr/fiches/2024-comment-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/fiches/2025-quels-enjeux-societaux-entourent-la-donnee/"
+to = "/fr/fiches/2025-quels-enjeux-societaux-entourent-la-donnee/"
+
+[[redirects]]
+from = "/en/items/2025-quelles-donnees-produisent-les-reseaux-sociaux/"
+to = "/en/guidelines/2025-quelles-donnees-produisent-les-reseaux-sociaux/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/business-intelligence-bi-ou-informatique-decisionnelle/"
+to = "/fr/fiches/mots-cles/business-intelligence/"
+
+[[redirects]]
+from = "/a-propos/team/editors/"
+to = "/en/about/team/editors/"
+
+[[redirects]]
+from = "/fiches/mots-cles/metadonnee-metadata/"
+to = "/fr/fiches/mots-cles/metadonnee-metadata/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/fr/fiches/2025-comment-dire-non-a-une-enieme-demande-de-emailing-ou-de-publication-sur-les-reseaux-sociaux-et-obten/"
+to = "/fr/fiches/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
+
+[[redirects]]
+from = "/fiches/2025-lia-generative-un-outil-du-marketing-digital/"
+to = "/fr/fiches/2025-lia-generative-un-outil-du-marketing-digital/"
+
+[[redirects]]
+from = "/en/team/editors/"
+to = "/en/about/team/editors/"
+
+[[redirects]]
+from = "/annexes/temoignages/"
+to = "/fr/annexes/temoignages/"
+
+[[redirects]]
+from = "/en/items/2025-quelle-est-la-difference-entre-un-emailing-une-newsletter-et-un-mail-transactionnel/"
+to = "/en/guidelines/2025-quelle-est-la-difference-entre-un-emailing-une-newsletter-et-un-mail-transactionnel/"
+
+[[redirects]]
+from = "/en/items/2025-quelles-donnees-produit-mon-site-internet/"
+to = "/en/guidelines/2025-quelles-donnees-produit-mon-site-internet/"
+
+[[redirects]]
+from = "/fiches/"
+to = "/fr/fiches/"
+
+[[redirects]]
+from = "/fiches/2025-mais-en-fait-quest-ce-quune-donnee/"
+to = "/fr/fiches/2025-mais-en-fait-quest-ce-quune-donnee/"
+
+[[redirects]]
+from = "/annexes/2025-02-18-comment-jai-reveille-des-spectateurs-endormis/"
+to = "/fr/annexes/2025-02-18-comment-jai-reveille-des-spectateurs-endormis/"
+
+[[redirects]]
+from = "/fr/fiches/segmentation/"
+to = "/fr/fiches/mots-cles/segment-segmentation/"
+
+[[redirects]]
+from = "/fr/ressources/2024-comment-formuler-les-besoins-en-amont-dun-projet/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/en/items/2025-quelle-place-pour-les-tableurs/"
+to = "/en/guidelines/2025-quelle-place-pour-les-tableurs/"
+
+[[redirects]]
+from = "/a-propos/partenaires/arte/"
+to = "/fr/a-propos/partenaires/arte/"
+
+[[redirects]]
+from = "/fr/ressources/2024-comment-mettre-en-oeuvre-une-strategie-seo/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+
+[[redirects]]
+from = "/fiches/mots-cles/crm-grc/"
+to = "/fr/fiches/mots-cles/crm-grc/"
+
+[[redirects]]
+from = "/fiches/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+to = "/fr/fiches/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/en/items/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+to = "/en/guidelines/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-02-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+to = "/fr/fiches/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+
+[[redirects]]
+from = "/fiches/mots-cles/business-intelligence/"
+to = "/fr/fiches/mots-cles/business-intelligence/"
+
+[[redirects]]
+from = "/a-propos/partenaires/schaubuhne-berlin-allemagne/"
+to = "/fr/a-propos/partenaires/schaubuhne-berlin-allemagne/"
+
+[[redirects]]
+from = "/en/a-propos/team/"
+to = "/en/about/team/"
+
+[[redirects]]
+from = "/fr/ressources/maitriser-les-techniques/"
+to = "/fr/fiches/rubriques/maitriser-les-techniques/"
+
+[[redirects]]
+from = "/fiches/mots-cles/tunnel-de-conversion/"
+to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
+
+[[redirects]]
+from = "/fiches/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees/"
+to = "/fr/fiches/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees/"
+
+[[redirects]]
+from = "/en/items/2025-quelles-pistes-pour-faire-parler-les-donnees-autrement/"
+to = "/en/guidelines/2025-quelles-pistes-pour-faire-parler-les-donnees-autrement/"
+
+[[redirects]]
+from = "/en/items/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+to = "/en/guidelines/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+
+[[redirects]]
+from = "/en/items/rubriques/maitriser-les-techniques/"
+to = "/en/guidelines/sections/mastering-the-techniques/"
+
+[[redirects]]
+from = "/en/a-propos/partners/odeon-theatre-de-leurope-paris-france/"
+to = "/en/about/partners/odeon-theatre-de-leurope-paris-france/"
+
+[[redirects]]
+from = "/annexes/2021-11-01-parlons-fidelisation-le-toolkit-de-thrive-uk/"
+to = "/fr/annexes/2021-11-01-parlons-fidelisation-le-toolkit-de-thrive-uk/"
+
+[[redirects]]
+from = "/fr/fiches/decouvrir-les-bases/"
+to = "/fr/fiches/rubriques/decouvrir-les-bases/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/marketing-culturel/"
+to = "/fr/fiches/mots-cles/marketing-culturel/"
+
+[[redirects]]
+from = "/a-propos/partenaires/emilia-romagna-teatro-fondazione-modena-italie/"
+to = "/fr/a-propos/partenaires/emilia-romagna-teatro-fondazione-modena-italie/"
+
+[[redirects]]
+from = "/en/items/mots-cles/"
+to = "/en/guidelines/keywords/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/donnees-personnelles/"
+to = "/fr/fiches/mots-cles/donnee-personnelle/"
+
+[[redirects]]
+from = "/fiches/mots-cles/gafam/"
+to = "/fr/fiches/mots-cles/gafam/"
+
+[[redirects]]
+from = "/fiches/mots-cles/tracking-tracage/"
+to = "/fr/fiches/mots-cles/tracking-tracage/"
+
+[[redirects]]
+from = "/en/items/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+to = "/en/guidelines/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/billetterie/"
+to = "/fr/fiches/mots-cles/billetterie/"
+
+[[redirects]]
+from = "/en/items/2025-cas-dusage-loutil-pour-mieux-choisir-et-deployer-ses-logiciels/"
+to = "/en/guidelines/2025-cas-dusage-loutil-pour-mieux-choisir-et-deployer-ses-logiciels/"
+
+[[redirects]]
+from = "/fr/projets/decouvrir-les-bases/"
+to = "/fr/fiches/rubriques/decouvrir-les-bases/"
+
+[[redirects]]
+from = "/en/items/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+to = "/en/guidelines/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+
+[[redirects]]
+from = "/fiches/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+
+[[redirects]]
+from = "/en/guidelines/2025-demain-un-monde-sans-cookies/"
+to = "/en/guidelines/2025-4-06-tomorrow-a-world-without-cookies/"
+
+[[redirects]]
+from = "/fiches/mots-cles/illectronisme/"
+to = "/fr/fiches/mots-cles/illectronisme/"
+
+[[redirects]]
+from = "/en/a-propos/partners/teatr-powszechny-warszawa-pologne/"
+to = "/en/about/partners/teatr-powszechny-warszawa-pologne/"
+
+[[redirects]]
+from = "/annexes/2025-02-21-audience-development-vs-art-marketing-une-analyse-critique-par-piotr-firych/"
+to = "/fr/annexes/2025-02-21-audience-development-vs-art-marketing-une-analyse-critique-par-piotr-firych/"
+
+[[redirects]]
+from = "/fr/fiches/2024-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+to = "/fr/fiches/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+
+[[redirects]]
+from = "/fiches/2025-convertir-les-intentionnistes-ou-fideliser-les-publics-deja-acquis/"
+to = "/fr/fiches/2025-convertir-les-intentionnistes-ou-fideliser-les-publics-deja-acquis/"
+
+[[redirects]]
+from = "/fr/projets/"
+to = "/fr/fiches/"
+
+[[redirects]]
+from = "/en/items/sections/getting-started/"
+to = "/en/guidelines/sections/getting-started/"
+
+[[redirects]]
+from = "/fiches/mots-cles/parcours-usager/"
+to = "/fr/fiches/mots-cles/parcours-usager/"
+
+[[redirects]]
+from = "/fiches/2025-de-quelles-competences-externes-puis-je-mentourer/"
+to = "/fr/fiches/2025-de-quelles-competences-externes-puis-je-mentourer/"
+
+[[redirects]]
+from = "/annexes/2020-02-02-deploiement-de-projets-de-gestion-de-la-relations-contacts-grc-au-sein-des-institutions-culturelles/"
+to = "/fr/annexes/2020-02-02-deploiement-de-projets-de-gestion-de-la-relations-contacts-grc-au-sein-des-institutions-culturelles/"
+
+[[redirects]]
+from = "/fr/fiches/2024-comment-mettre-en-oeuvre-une-strategie-seo/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+
+[[redirects]]
+from = "/fr/fiches/2025-comment-adapter-mes-actions-a-mes-publics/"
+to = "/fr/fiches/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+
+[[redirects]]
+from = "/en/items/sections/decouvrir-les-bases/"
+to = "/en/guidelines/sections/getting-started/"
+
+[[redirects]]
+from = "/en/a-propos/partners/arte/"
+to = "/en/about/partners/arte/"
+
+[[redirects]]
+from = "/fr/ressources/piloter-la-strategie/"
+to = "/fr/fiches/rubriques/piloter-la-strategie/"
+
+[[redirects]]
+from = "/annexes/2025-02-28-amaculturehive-un-centre-de-ressources-collaboratif-et-contributif-pour-les-arts-et-le-marketing-uk/"
+to = "/fr/annexes/2025-02-28-amaculturehive-un-centre-de-ressources-collaboratif-et-contributif-pour-les-arts-et-le-marketing-uk/"
+
+[[redirects]]
+from = "/a-propos/equipe/olivia-simonet/"
+to = "/fr/a-propos/equipe/olivia-simonet/"
+
+[[redirects]]
+from = "/fiches/2025-cartographier-et-organiser-mes-donnees/"
+to = "/fr/fiches/2025-cartographier-et-organiser-mes-donnees/"
+
+[[redirects]]
+from = "/a-propos/equipe/christine-champneuf/"
+to = "/fr/a-propos/equipe/christine-champneuf/"
+
+[[redirects]]
+from = "/fiches/mots-cles/data-management/"
+to = "/fr/fiches/mots-cles/data-management/"
+
+[[redirects]]
+from = "/fr/ressources/2024-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+to = "/fr/fiches/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/a-propos/partenaires/odeon-theatre-de-leurope-paris-france/"
+to = "/fr/a-propos/partenaires/odeon-theatre-de-leurope-paris-france/"
+
+[[redirects]]
+from = "/en/appendices/etudes-de-cas/"
+to = "/en/appendices/case-studies/"
+
+[[redirects]]
+from = "/en/team/"
+to = "/en/about/team/"
+
+[[redirects]]
+from = "/en/items/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+to = "/en/guidelines/2025-quelle-est-la-reglementation-applicable-aux-donnees/"
+
+[[redirects]]
+from = "/a-propos/partenaires/teatr-powszechny-warszawa-pologne/"
+to = "/fr/a-propos/partenaires/teatr-powszechny-warszawa-pologne/"
+
+[[redirects]]
+from = "/en/items/"
+to = "/en/guidelines/"
+
+[[redirects]]
+from = "/fiches/mots-cles/marketing-culturel/"
+to = "/fr/fiches/mots-cles/marketing-culturel/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-02-adapter-mes-actions-a-mes-publics-ou-l-importance-de-la-segmentation/"
+to = "/fr/fiches/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+
+[[redirects]]
+from = "/fiches/mots-cles/segment-segmentation/"
+to = "/fr/fiches/mots-cles/segment-segmentation/"
+
+[[redirects]]
+from = "/accessibilite/"
+to = "/fr/accessibilite/"
+
+[[redirects]]
+from = "/fiches/mots-cles/email-transactionnel/"
+to = "/fr/fiches/mots-cles/email-transactionnel/"
+
+[[redirects]]
+from = "/en/items/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+to = "/en/guidelines/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+
+[[redirects]]
+from = "/fiches/mots-cles/conversion/"
+to = "/fr/fiches/mots-cles/conversion/"
+
+[[redirects]]
+from = "/en/a-propos/team/editors/"
+to = "/en/about/team/editors/"
+
+[[redirects]]
+from = "/en/items/keywords/"
+to = "/en/guidelines/keywords/"
+
+[[redirects]]
+from = "/fr/fiches/opt-in-opt-out/"
+to = "/fr/fiches/mots-cles/opt-in-opt-out/"
+
+[[redirects]]
+from = "/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/a-propos/partenaires/theatre-de-liege-lead-partner-belgique/"
+to = "/fr/a-propos/partenaires/theatre-de-liege-lead-partner-belgique/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quelles-sont-les-etapes-pour-piloter-le-deploiement-dun-outil-de-gestion-de-donnees/"
+to = "/fr/fiches/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+
+[[redirects]]
+from = "/fiches/rubriques/comprendre-le-contexte/"
+to = "/fr/fiches/rubriques/comprendre-le-contexte/"
+
+[[redirects]]
+from = "/fr/fiches/crm/"
+to = "/fr/fiches/mots-cles/crm-grc/"
+
+[[redirects]]
+from = "/fr/fiches/2024-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+to = "/fr/fiches/2025-a-quoi-sert-mon-logiciel-de-billetterie-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-01-cartographier-et-organiser-mes-donnees/"
+to = "/fr/fiches/2025-cartographier-et-organiser-mes-donnees/"
+
+[[redirects]]
+from = "/fiches/mots-cles/big-data/"
+to = "/fr/fiches/mots-cles/big-data/"
+
+[[redirects]]
+from = "/fiches/2025-quelles-donnees-produit-mon-site-internet/"
+to = "/fr/fiches/2025-quelles-donnees-produit-mon-site-internet/"
+
+[[redirects]]
+from = "/annexes/2025-02-21-depasser-le-ce-nest-pas-pour-nous-comment-le-pacific-northwest-ballet-a-developpe-le-public-adolscen/"
+to = "/fr/annexes/2025-02-21-depasser-le-ce-nest-pas-pour-nous-comment-le-pacific-northwest-ballet-a-developpe-le-public-adolscen/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/segmentation/"
+to = "/fr/fiches/mots-cles/segment-segmentation/"
+
+[[redirects]]
+from = "/annexes/2025-02-18-le-kit-de-ressources-opendatafrance/"
+to = "/fr/annexes/2025-02-18-le-kit-de-ressources-opendatafrance/"
+
+[[redirects]]
+from = "/fiches/mots-cles/ranking/"
+to = "/fr/fiches/mots-cles/ranking/"
+
+[[redirects]]
+from = "/fiches/mots-cles/"
+to = "/fr/fiches/mots-cles/"
+
+[[redirects]]
+from = "/en/a-propos/positionnement/"
+to = "/en/about/positioning/"
+
+[[redirects]]
+from = "/fiches/mots-cles/objectifs-et-indicateurs/"
+to = "/fr/fiches/mots-cles/objectifs-et-indicateurs/"
+
+[[redirects]]
+from = "/fiches/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+to = "/fr/fiches/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+
+[[redirects]]
+from = "/fiches/mots-cles/strategie-de-contenu/"
+to = "/fr/fiches/mots-cles/strategie-de-contenu/"
+
+[[redirects]]
+from = "/a-propos/partenaires/hrvatsko-narodno-kazaliste-u-zagrebu-zagreb-croatie/"
+to = "/fr/a-propos/partenaires/hrvatsko-narodno-kazaliste-u-zagrebu-zagreb-croatie/"
+
+[[redirects]]
+from = "/fr/fiches/billetterie/"
+to = "/fr/fiches/mots-cles/billetterie/"
+
+[[redirects]]
+from = "/en/items/2025-de-quelles-competences-externes-puis-je-mentourer/"
+to = "/en/guidelines/2025-de-quelles-competences-externes-puis-je-mentourer/"
+
+[[redirects]]
+from = "/fr/ressources/2024-mais-en-fait-quest-ce-quune-donnee/"
+to = "/fr/fiches/2025-mais-en-fait-quest-ce-quune-donnee/"
+
+[[redirects]]
+from = "/annexes/2025-02-28-le-developpement-des-publics-et-lusage-des-donnees-un-etat-des-lieux-au-sein-des-institutions-cultur/"
+to = "/fr/annexes/2025-02-28-le-developpement-des-publics-et-lusage-des-donnees-un-etat-des-lieux-au-sein-des-institutions-cultur/"
+
+[[redirects]]
+from = "/fr/fiches/marketing-culturel/"
+to = "/fr/fiches/mots-cles/marketing-culturel/"
+
+[[redirects]]
+from = "/fiches/mots-cles/poc-proof-of-concept/"
+to = "/fr/fiches/mots-cles/poc-proof-of-concept/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/metadonnee/"
+to = "/fr/fiches/mots-cles/metadonnee-metadata/"
+
+[[redirects]]
+from = "/fiches/glossaire/"
+to = "/fr/fiches/glossaire/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/tunnels-dacquisition/"
+to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
+
+[[redirects]]
+from = "/fr/fiches/2024-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+to = "/fr/fiches/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+
+[[redirects]]
+from = "/fiches/mots-cles/pilotage/"
+to = "/fr/fiches/mots-cles/pilotage/"
+
+[[redirects]]
+from = "/fiches/2025-quelle-place-pour-les-tableurs/"
+to = "/fr/fiches/2025-quelle-place-pour-les-tableurs/"
+
+[[redirects]]
+from = "/fiches/mots-cles/cookies-tiers/"
+to = "/fr/fiches/mots-cles/cookies-tiers/"
+
+[[redirects]]
+from = "/fiches/rubriques/maitriser-les-techniques/"
+to = "/fr/fiches/rubriques/maitriser-les-techniques/"
+
+[[redirects]]
+from = "/fiches/mots-cles/retargeting/"
+to = "/fr/fiches/mots-cles/retargeting/"
+
+[[redirects]]
+from = "/fiches/mots-cles/intelligence-artificielle-generative-ia-ai-genai/"
+to = "/fr/fiches/mots-cles/intelligence-artificielle-generative-ia-ai-genai/"
+
+[[redirects]]
+from = "/en/a-propos/team/anne-le-gall/"
+to = "/en/about/team/anne-le-gall/"
+
+[[redirects]]
+from = "/fiches/mots-cles/plateformisation/"
+to = "/fr/fiches/mots-cles/plateformisation/"
+
+[[redirects]]
+from = "/en/a-propos/team/anthony-ferretti/"
+to = "/en/about/team/anthony-ferretti/"
+
+[[redirects]]
+from = "/fiches/2025-cas-dusage-loutil-pour-mieux-choisir-et-deployer-ses-logiciels/"
+to = "/fr/fiches/2025-cas-dusage-loutil-pour-mieux-choisir-et-deployer-ses-logiciels/"
+
+[[redirects]]
+from = "/fr/fiches/automatisation/"
+to = "/fr/fiches/mots-cles/automatisation/"
+
+[[redirects]]
+from = "/en/items/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+to = "/en/guidelines/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+
+[[redirects]]
+from = "/annexes/2025-03-19-le-centre-de-ressources-du-tmnlab/"
+to = "/fr/annexes/2025-03-19-le-centre-de-ressources-du-tmnlab/"
+
+[[redirects]]
+from = "/fr/fiches/2024-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+to = "/fr/fiches/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+
+[[redirects]]
+from = "/fiches/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+to = "/fr/fiches/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+
+[[redirects]]
+from = "/en/projects/2025-les-pratiques-culturelles-de-plus-en-plus-numerisees/"
+to = "/en/guidelines/2025-1-01-are-cultural-practices-becoming-increasingly-digitised/"
+
+[[redirects]]
+from = "/en/a-propos/team/anne-le-gall/appendices/"
+to = "/en/about/team/anne-le-gall/appendices/"
+
+[[redirects]]
+from = "/en/a-propos/partners/schaubuhne-berlin-allemagne/"
+to = "/en/about/partners/schaubuhne-berlin-allemagne/"
+
+[[redirects]]
+from = "/en/items/2025-et-moi-est-ce-que-jen-ai-des-donnees/"
+to = "/en/guidelines/2025-et-moi-est-ce-que-jen-ai-des-donnees/"
+
+[[redirects]]
+from = "/a-propos/equipe/anne-le-gall/"
+to = "/fr/a-propos/equipe/anne-le-gall/"
+
+[[redirects]]
+from = "/fr/annexes-1/"
+to = "/fr/annexes/"
+
+[[redirects]]
+from = "/en/items/sections/mastering-the-techniques/"
+to = "/en/guidelines/sections/mastering-the-techniques/"
+
+[[redirects]]
+from = "/fiches/2025-quels-sont-les-differents-tunnels-de-conversion-dans-le-contexte-du-marketing-culturel/"
+to = "/fr/fiches/2025-quels-sont-les-differents-tunnels-de-conversion-dans-le-contexte-du-marketing-culturel/"
+
+[[redirects]]
+from = "/fiches/2025-data-marketing-platform-customer-data-platform-jusquou-aller-dans-la-gestion-de-donnees/"
+to = "/fr/fiches/2025-data-marketing-platform-customer-data-platform-jusquou-aller-dans-la-gestion-de-donnees/"
+
+[[redirects]]
+from = "/fr/fiches/thematiques/"
+to = "/fr/fiches/rubriques/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quelle-place-pour-les-tableurs/"
+to = "/fr/fiches/2025-quelle-place-pour-les-tableurs/"
+
+[[redirects]]
+from = "/fiches/mots-cles/scrapper-scrapping/"
+to = "/fr/fiches/mots-cles/scrapper-scrapping/"
+
+[[redirects]]
+from = "/fiches/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+to = "/fr/fiches/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+
+[[redirects]]
+from = "/en/a-propos/organizations/"
+to = "/en/about/partners/"
+
+[[redirects]]
+from = "/a-propos/equipe/chrystel-folcher-bouby/"
+to = "/fr/a-propos/equipe/chrystel-folcher-bouby/"
+
+[[redirects]]
+from = "/en/a-propos/team/alexis-benoit/"
+to = "/en/about/team/alexis-benoit/"
+
+[[redirects]]
+from = "/fiches/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+to = "/fr/fiches/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+
+[[redirects]]
+from = "/fr/fiches/donnee/"
+to = "/fr/fiches/mots-cles/donnee-data/"
+
+[[redirects]]
+from = "/en/a-propos/partners/goteborgs-stadsteater/"
+to = "/en/about/partners/goteborgs-stadsteater/"
+
+[[redirects]]
+from = "/en/a-propos/partners/hrvatsko-narodno-kazaliste-u-zagrebu-zagreb-croatie/"
+to = "/en/about/partners/hrvatsko-narodno-kazaliste-u-zagrebu-zagreb-croatie/"
+
+[[redirects]]
+from = "/fr/fiches/2025-de-quelles-donnees-je-dispose-deja-et-quel-usage-en-faire/"
+to = "/fr/fiches/2025-cartographier-et-organiser-mes-donnees/"
+
+[[redirects]]
+from = "/fr/fiches/decouvrabilite/"
+to = "/fr/fiches/mots-cles/decouvrabilite/"
+
+[[redirects]]
+from = "/fiches/mots-cles/algorithme/"
+to = "/fr/fiches/mots-cles/algorithme/"
+
+[[redirects]]
+from = "/plan-du-site/"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
+from = "/fiches/mots-cles/responsive/"
+to = "/fr/fiches/mots-cles/responsive/"
+
+[[redirects]]
+from = "/a-propos/equipe/alexis-benoit/"
+to = "/fr/a-propos/equipe/alexis-benoit/"
+
+[[redirects]]
+from = "/en/a-propos/team/clement-coustenoble/"
+to = "/en/about/team/clement-coustenoble/"
+
+[[redirects]]
+from = "/en/projects/"
+to = "/en/guidelines/"
+
+[[redirects]]
+from = "/en/items/2025-quels-sont-les-differents-tunnels-de-conversion-dans-le-contexte-du-marketing-culturel/"
+to = "/en/guidelines/2025-quels-sont-les-differents-tunnels-de-conversion-dans-le-contexte-du-marketing-culturel/"
+
+[[redirects]]
+from = "/fr/ressources/thematiques/"
+to = "/fr/fiches/rubriques/"
+
+[[redirects]]
+from = "/en/items/sections/"
+to = "/en/guidelines/sections/"
+
+[[redirects]]
+from = "/en/items/2025-lia-generative-un-outil-du-marketing-digital/"
+to = "/en/guidelines/2025-lia-generative-un-outil-du-marketing-digital/"
+
+[[redirects]]
+from = "/en/appendices/2025-03-19-le-centre-de-ressources-du-tmnlab/"
+to = "/en/appendices/2025-03-19-the-tmnlab-resource-centre/"
+
+[[redirects]]
+from = "/en/items/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+to = "/en/guidelines/2025-le-spectacle-vivant-se-commercialise-t-il-comme-des-chaussettes/"
+
+[[redirects]]
+from = "/fiches/mots-cles/rgpd-gdpr/"
+to = "/fr/fiches/mots-cles/rgpd-gdpr/"
+
+[[redirects]]
+from = "/fiches/rubriques/decouvrir-les-bases/"
+to = "/fr/fiches/rubriques/decouvrir-les-bases/"
+
+[[redirects]]
+from = "/fiches/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-une-strategie-seo-le-minimum-le-realiste/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+to = "/fr/fiches/2025-quelles-sont-les-pratiques-dans-le-spectacle-vivant-en-matiere-dusage-de-donnees/"
+
+[[redirects]]
+from = "/fiches/2025-que-puis-je-attendre-dun-crm/"
+to = "/fr/fiches/2025-que-puis-je-attendre-dun-crm/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/"
+to = "/fr/fiches/mots-cles/"
+
+[[redirects]]
+from = "/a-propos/equipe/anthony-ferretti/"
+to = "/fr/a-propos/equipe/anthony-ferretti/"
+
+[[redirects]]
+from = "/en/items/2025-cartographier-et-organiser-mes-donnees/"
+to = "/en/guidelines/2025-cartographier-et-organiser-mes-donnees/"
+
+[[redirects]]
+from = "/en/items/2025-demain-un-monde-sans-cookies/"
+to = "/en/guidelines/2025-4-06-tomorrow-a-world-without-cookies/"
+
+[[redirects]]
+from = "/fiches/mots-cles/droits-culturels/"
+to = "/fr/fiches/mots-cles/droits-culturels/"
+
+[[redirects]]
+from = "/a-propos/partenaires/"
+to = "/fr/a-propos/partenaires/"
+
+[[redirects]]
+from = "/annexes/etudes-de-cas/"
+to = "/fr/annexes/etudes-de-cas/"
+
+[[redirects]]
+from = "/fr/fiches/2024-comment-formuler-ses-objectifs-et-finalites-strategiques/"
+to = "/fr/fiches/2025-formuler-ses-objectifs-et-finalites-strategiques/"
+
+[[redirects]]
+from = "/fiches/mots-cles/referencement-seo/"
+to = "/fr/fiches/mots-cles/referencement-seo/"
+
+[[redirects]]
+from = "/fiches/mots-cles/newsletter/"
+to = "/fr/fiches/mots-cles/newsletter/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-09-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/fiches/2025-quelle-est-la-difference-entre-un-emailing-une-newsletter-et-un-mail-transactionnel/"
+to = "/fr/fiches/2025-quelle-est-la-difference-entre-un-emailing-une-newsletter-et-un-mail-transactionnel/"
+
+[[redirects]]
+from = "/fiches/2025-comment-produire-des-donnees-avec-les-parties-prenantes/"
+to = "/fr/fiches/2025-comment-produire-des-donnees-avec-les-parties-prenantes/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/tunnels-de-conversion/"
+to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
+
+[[redirects]]
+from = "/fiches/mots-cles/capping/"
+to = "/fr/fiches/mots-cles/capping/"
+
+[[redirects]]
+from = "/en/a-propos/team/arnaud-levy/"
+to = "/en/about/team/arnaud-levy/"
+
+[[redirects]]
+from = "/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fiches/mots-cles/publicite-programmatique/"
+to = "/fr/fiches/mots-cles/publicite-programmatique/"
+
+[[redirects]]
+from = "/fr/fiches/2025-comment-mieux-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+
+[[redirects]]
+from = "/en/positionnement/"
+to = "/en/about/positioning/"
+
+[[redirects]]
+from = "/fr/equipe/"
+to = "/fr/a-propos/equipe/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/crm/"
+to = "/fr/fiches/mots-cles/crm-grc/"
+
+[[redirects]]
+from = "/fr/fiches/maitriser-les-techniques/"
+to = "/fr/fiches/rubriques/maitriser-les-techniques/"
+
+[[redirects]]
+from = "/fiches/2025-et-moi-est-ce-que-jen-ai-des-donnees/"
+to = "/fr/fiches/2025-et-moi-est-ce-que-jen-ai-des-donnees/"
+
+[[redirects]]
+from = "/annexes/2025-02-28-developper-les-publics-15-perspectives-nordiques-sur-un-defi-incontournable/"
+to = "/fr/annexes/2025-02-28-developper-les-publics-15-perspectives-nordiques-sur-un-defi-incontournable/"
+
+[[redirects]]
+from = "/fr/actualites/"
+to = "/fr/annexes/"
+
+[[redirects]]
+from = "/fiches/mots-cles/api/"
+to = "/fr/fiches/mots-cles/api/"
+
+[[redirects]]
+from = "/fr/fiches/rgpd-gdpr/"
+to = "/fr/fiches/mots-cles/rgpd-gdpr/"
+
+[[redirects]]
+from = "/fr/fiches/2025-reussir-sa-gestion-de-projet-de-l-expression-de-besoin-au-deploiement/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quels-enjeux-sectoriels-et-internes-en-terme-dinteroperabilite/"
+to = "/fr/fiches/2024-quels-enjeux-sectoriels-et-internes-en-terme-dinteroperabilite/"
+
+[[redirects]]
+from = "/en/items/rubriques/decouvrir-les-bases/"
+to = "/en/guidelines/sections/getting-started/"
+
+[[redirects]]
+from = "/fr/ressources/comprendre-le-contexte/"
+to = "/fr/fiches/rubriques/comprendre-le-contexte/"
+
+[[redirects]]
+from = "/fiches/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+to = "/fr/fiches/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+
+[[redirects]]
+from = "/fiches/mots-cles/scalabilite-scalability/"
+to = "/fr/fiches/mots-cles/scalabilite-scalability/"
+
+[[redirects]]
+from = "/a-propos/equipe/chrystel-bazin/"
+to = "/fr/a-propos/equipe/chrystel-bazin/"
+
+[[redirects]]
+from = "/fiches/mots-cles/interoperabilite/"
+to = "/fr/fiches/mots-cles/interoperabilite/"
+
+[[redirects]]
+from = "/en/items/rubriques/"
+to = "/en/guidelines/sections/"
+
+[[redirects]]
+from = "/a-propos/equipe/arnaud-levy/"
+to = "/fr/a-propos/equipe/arnaud-levy/"
+
+[[redirects]]
+from = "/fr/fiches/2025-3-06-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+
+[[redirects]]
+from = "/fiches/mots-cles/cookies/"
+to = "/fr/fiches/mots-cles/cookies/"
+
+[[redirects]]
+from = "/fiches/mots-cles/billetterie/"
+to = "/fr/fiches/mots-cles/billetterie/"
+
+[[redirects]]
+from = "/fr/ressources/2024-comment-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/fr/fiches/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/en/items/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+to = "/en/guidelines/2025-comprendre-les-comportements-de-ses-publics-pour-adapter-son-adresse-de-l-importance-de-la-segm/"
+
+[[redirects]]
+from = "/en/appendices/temoignages/"
+to = "/en/appendices/testimonials/"
+
+[[redirects]]
+from = "/fr/ressources/2024-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+to = "/fr/fiches/2025-pourquoi-il-faut-nettoyer-sa-base-de-donnees/"
+
+[[redirects]]
+from = "/fr/fiches/tunnels-dacquisition/"
+to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
+
+[[redirects]]
+from = "/fiches/2025-quelles-pistes-pour-faire-parler-les-donnees-autrement/"
+to = "/fr/fiches/2025-quelles-pistes-pour-faire-parler-les-donnees-autrement/"
+
+[[redirects]]
+from = "/en/items/2025-convertir-les-intentionnistes-ou-fideliser-les-publics-deja-acquis/"
+to = "/en/guidelines/2025-convertir-les-intentionnistes-ou-fideliser-les-publics-deja-acquis/"
+
+[[redirects]]
+from = "/annexes/2025-02-21-successful-case-study-of-digital-marketing-in-theatre-and-dance-royal-shakespeare-company-rsc/"
+to = "/fr/annexes/2025-02-21-successful-case-study-of-digital-marketing-in-theatre-and-dance-royal-shakespeare-company-rsc/"
+
+[[redirects]]
+from = "/fiches/mots-cles/donnee-data/"
+to = "/fr/fiches/mots-cles/donnee-data/"
+
+[[redirects]]
+from = "/a-propos/partenaires/sao-luiz-teatro-municipal-lisboa-portugal/"
+to = "/fr/a-propos/partenaires/sao-luiz-teatro-municipal-lisboa-portugal/"
+
+[[redirects]]
+from = "/en/a-propos/partners/sao-luiz-teatro-municipal-lisboa-portugal/"
+to = "/en/about/partners/sao-luiz-teatro-municipal-lisboa-portugal/"
+
+[[redirects]]
+from = "/en/items/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+to = "/en/guidelines/2025-mettre-en-oeuvre-le-suivi-des-visiteurs-numeriques-et-l-utiliser/"
+
+[[redirects]]
+from = "/fr/fiches/2025-comment-definir-et-mettre-en-oeuvre-ma-politique-demailing/"
+to = "/fr/fiches/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+
+[[redirects]]
+from = "/en/items/2025-envisager-lautomatisation-en-marketing-relationnel/"
+to = "/en/guidelines/2025-envisager-lautomatisation-en-marketing-relationnel/"
+
+[[redirects]]
+from = "/annexes/2025-02-21-comment-mieux-piloter-son-projet-digital-dans-un-etablissement-culturel-mon-experience-au-104paris/"
+to = "/fr/annexes/2025-02-21-comment-mieux-piloter-son-projet-digital-dans-un-etablissement-culturel-mon-experience-au-104paris/"
+
+[[redirects]]
+from = "/a-propos/partenaires/goteborgs-stadsteater/"
+to = "/fr/a-propos/partenaires/goteborgs-stadsteater/"
+
+[[redirects]]
+from = "/a-propos/team/"
+to = "/en/about/team/"
+
+[[redirects]]
+from = "/en/items/sections/driving-the-strategy/"
+to = "/en/guidelines/sections/driving-the-strategy/"
+
+[[redirects]]
+from = "/fr/fiches/comprendre-le-contexte/"
+to = "/fr/fiches/rubriques/comprendre-le-contexte/"
+
+[[redirects]]
+from = "/en/items/2025-comment-produire-des-donnees-avec-les-parties-prenantes/"
+to = "/en/guidelines/2025-comment-produire-des-donnees-avec-les-parties-prenantes/"
+
+[[redirects]]
+from = "/en/a-propos/partners/emilia-romagna-teatro-fondazione-modena-italie/"
+to = "/en/about/partners/emilia-romagna-teatro-fondazione-modena-italie/"
+
+[[redirects]]
+from = "/en/items/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+to = "/en/guidelines/2025-connaitre-et-investir-dans-les-differentes-formes-de-publicite-en-ligne/"
+
+[[redirects]]
+from = "/fiches/rubriques/piloter-la-strategie/"
+to = "/fr/fiches/rubriques/piloter-la-strategie/"
+
+[[redirects]]
+from = "/fiches/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+to = "/fr/fiches/2025-definir-et-mettre-en-oeuvre-sa-politique-d-emailing/"
+
+[[redirects]]
+from = "/fiches/mots-cles/heatmap/"
+to = "/fr/fiches/mots-cles/heatmap/"
+
+[[redirects]]
+from = "/en/organizations/"
+to = "/en/about/partners/"
+
+[[redirects]]
+from = "/a-propos/positionnement/"
+to = "/fr/a-propos/positionnement/"
+
+[[redirects]]
+from = "/en/items/rubriques/comprendre-le-contexte/"
+to = "/en/guidelines/sections/understanding-the-context/"
+
+[[redirects]]
+from = "/en/items/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+to = "/en/guidelines/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fr/fiches/2024-comment-formuler-les-besoins-en-amont-dun-projet/"
+to = "/fr/fiches/2025-piloter-un-projet-de-deploiement-de-logiciel/"
+
+[[redirects]]
+from = "/fiches/mots-cles/data-literacy/"
+to = "/fr/fiches/mots-cles/data-literacy/"
+
+[[redirects]]
+from = "/a-propos/partenaires/teatros-del-canal-comunidad-de-madrid-espagne/"
+to = "/fr/a-propos/partenaires/teatros-del-canal-comunidad-de-madrid-espagne/"
+
+[[redirects]]
+from = "/fr/positionnement/"
+to = "/fr/a-propos/positionnement/"
+
+[[redirects]]
+from = "/fr/organisations/"
+to = "/fr/a-propos/partenaires/"
+
+[[redirects]]
+from = "/fiches/mots-cles/donnee-personnelle/"
+to = "/fr/fiches/mots-cles/donnee-personnelle/"
+
+[[redirects]]
+from = "/en/items/2025-quest-ce-quune-api-et-en-quoi-cela-mest-utile-dans-ma-strategie-marketing/"
+to = "/en/guidelines/2025-quest-ce-quune-api-et-en-quoi-cela-mest-utile-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/en/a-propos/team/olivia-simonet/"
+to = "/en/about/team/olivia-simonet/"
+
+[[redirects]]
+from = "/fr/fiches/mots-cles/dpo/"
+to = "/fr/fiches/mots-cles/dpo-data-protection-officer/"
+
+[[redirects]]
+from = "/fr/fiches/2024-quels-standards-du-web-culturel-dois-je-utiliser/"
+to = "/fr/fiches/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+
+[[redirects]]
+from = "/fr/fiches/sujets/automatisation/"
+to = "/fr/fiches/mots-cles/automatisation/"
+
+[[redirects]]
+from = "/en/items/2025-quels-enjeux-societaux-entourent-la-donnee/"
+to = "/en/guidelines/2025-quels-enjeux-societaux-entourent-la-donnee/"
+
+[[redirects]]
+from = "/fiches/2025-quest-ce-quune-api-et-en-quoi-cela-mest-utile-dans-ma-strategie-marketing/"
+to = "/fr/fiches/2025-quest-ce-quune-api-et-en-quoi-cela-mest-utile-dans-ma-strategie-marketing/"
+
+[[redirects]]
+from = "/en/posts/"
+to = "/en/appendices/"
+
+[[redirects]]
+from = "/fr/fiches/cookies/"
+to = "/fr/fiches/mots-cles/cookies/"
+
+[[redirects]]
+from = "/fr/annexes/2020-02-02-guide-pratique-de-deploiement-dun-grc-au-sein-des-institutions-culturelles-2020/"
+to = "/fr/annexes/2020-02-02-deploiement-de-projets-de-gestion-de-la-relations-contacts-grc-au-sein-des-institutions-culturelles/"
+
+[[redirects]]
+from = "/en/items/rubriques/piloter-la-strategie/"
+to = "/en/guidelines/sections/driving-the-strategy/"
+
+[[redirects]]
+from = "/fiches/mots-cles/in-bound-marketing/"
+to = "/fr/fiches/mots-cles/in-bound-marketing/"
+
+[[redirects]]
+from = "/fr/ressources/2024-quels-standards-du-web-culturel-dois-je-utiliser/"
+to = "/fr/fiches/2025-quels-standards-du-web-culturel-dois-je-utiliser/"
+
