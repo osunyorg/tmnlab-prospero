@@ -4,8 +4,8 @@ en:
   title: >-
     Audience data & performing arts
   contentDir: content/en
-  languageCode: en
-  languageName: English
+  locale: en
+  label: English
   buildFuture: true
   params:
     contact_details:
@@ -30,8 +30,8 @@ fr:
   title: >-
     Audience data & performing arts
   contentDir: content/fr
-  languageCode: fr
-  languageName: Français
+  locale: fr
+  label: Français
   buildFuture: true
   params:
     contact_details:
