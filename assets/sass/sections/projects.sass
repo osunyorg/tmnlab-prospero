@@ -10,8 +10,10 @@
         .post-sidebar
             .taxonomies-single li.terms
                 .taxonomy-children
-                    display: inline-flex
+                    align-items: baseline
+                    display: flex
                     flex-wrap: wrap
+                    flex-direction: row
                     justify-content: flex-end
                     flex: 1
                     gap: space(2)
@@ -19,6 +21,12 @@
                         margin: 0 !important
 
 .projects__page
+    .hero
+        .dropdown-share
+            button[aria-expanded="true"]
+                + .dropdown-menu
+                    border: 1px solid var(--color-text)
+
     .document-content
         min-height: 30vh
 
@@ -40,9 +48,9 @@ article.post .post-categories,
     li
         a
             background: $color-border
+            display: block
             padding: space() space(2)
             text-decoration: none !important
-            display: block
 
 .block-projects--list,
 .projects--list,
