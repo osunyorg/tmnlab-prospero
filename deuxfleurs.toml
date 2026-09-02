@@ -319,6 +319,10 @@ from = "/politique-de-confidentialite/index.html"
 to = "/fr/politique-de-confidentialite/"
 
 [[redirects]]
+from = "/en/2026/ronanleguern-104factory-memoirepdf/index.html"
+to = "/en/files/2026/ronanleguern-104factory-memoirepdf/"
+
+[[redirects]]
 from = "/fr/fiches/2025-comment-dire-non-a-une-enieme-demande-de-emailing-ou-de-publication-sur-les-reseaux-sociaux-et-obten/index.html"
 to = "/fr/fiches/2025-dire-non-a-une-demande-de-derniere-minute-et-obtenir-gain-de-cause/"
 
@@ -1029,6 +1033,10 @@ to = "/fr/fiches/mots-cles/tunnel-de-conversion/"
 [[redirects]]
 from = "/fiches/mots-cles/capping/index.html"
 to = "/fr/fiches/mots-cles/capping/"
+
+[[redirects]]
+from = "/en/2026/ticketsolve-pavillion-theatre-case-studypdf/index.html"
+to = "/en/files/2026/ticketsolve-pavillion-theatre-case-studypdf/"
 
 [[redirects]]
 from = "/en/a-propos/team/arnaud-levy/index.html"
